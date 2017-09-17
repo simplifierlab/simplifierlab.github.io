@@ -79,6 +79,7 @@ section ul.flex-container li img {
 }
 section ul.flex-container li.large {
   flex-grow: 2;
+  align-self: flex-end;
 }
 section ul.flex-container li.large img {
   max-width: calc(100% - 26px);
