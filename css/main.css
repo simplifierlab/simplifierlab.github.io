@@ -26,30 +26,6 @@ p {
   max-width: 75rem;
 }
 
-p.small,
-ul.small li,
-footer .col p.small {
-  font-size: 1.2rem;
-  line-height: 1.625;
-  margin-bottom: 1.25rem;
-  max-width: 360px;
-}
-p.smaller,
-ul.smaller li,
-footer .col p.smaller {
-  font-size: 1.1rem;
-  line-height: 1.625;
-  margin-bottom: 1.25rem;
-  max-width: 360px;
-}
-p.smallest,
-ul.smallest li,
-footer .col p.smallest {
-  font-size: 1rem;
-  line-height: 1.625;
-  margin-bottom: 1.25rem;
-}
-
 a {
   color: #f30;
   text-decoration: none;
@@ -122,16 +98,23 @@ footer .social-btn .fa {
   padding-right: 50px;
 }
 
-.col .button {
-  border: 1px solid #02BFE7;
-  color: #43403c43403c;
-  display: inline-block;
-  font: 400 1.2rem/1.5 'Overpass Mono', monospace;
-  margin: 30px 0;
-  min-width: 120px;
-  padding: 10px 20px 10px 10px;
-  text-align: center;
-  text-decoration: none;
+.caption {
+  margin: 5rem 0 10rem 0;
+  /*border: 1px solid #f00;*/
+}
+
+.caption p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0;
+  color: #999;
+  letter-spacing: normal;
+}
+
+.caption p strong {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .col .button::before {
@@ -206,7 +189,7 @@ section.two-column .col:not(:last-child) {
   padding-right: 20px;
 }
 section.one-column {
-  padding: 10rem;
+  padding: 0 10rem 10rem 10rem;
 }
 section.one-column img {
   max-width: 100%;
