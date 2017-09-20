@@ -36,6 +36,12 @@ a {
   padding: 12rem 0 5rem 0;
 }
 
+.nav {
+  margin-bottom: 7rem;
+  display: block;
+  border-bottom: none;
+  font-size: 4.8rem;
+}
 
 footer.container {
   padding-bottom: 5rem;
