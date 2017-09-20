@@ -199,6 +199,13 @@ section.one-column img {
   border-top-color: #ddd;
   margin-bottom: 20rem;
 }
+section.one-column-full {
+  padding-bottom: 20rem;
+}
+section.one-column-full img {
+  max-width: 100%;
+  margin-bottom: .2rem;
+}
 
 @media all and (max-width: 640px) {
   section.one-column {
