@@ -202,19 +202,5 @@ section.one-column-full img {
   }
   p {
     font-size: 1.6rem;
-    /*line-height: 1.325;
-    letter-spacing: -.02em;
-    margin-bottom: 3.5rem;
-    max-width: 75rem;*/
-  }
-}
-
-@media all and (max-device-width: 320px) {
-  p {
-    font-size: 1.6rem;
-    /*line-height: 1.325;
-    letter-spacing: -.02em;
-    margin-bottom: 3.5rem;
-    max-width: 75rem;*/
   }
 }
