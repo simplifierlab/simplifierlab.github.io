@@ -186,7 +186,7 @@ section.one-column-full img {
   margin-bottom: .2rem;
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-device-width: 640px) {
   section.one-column {
     padding: 5rem;
   }
@@ -200,9 +200,16 @@ section.one-column-full img {
   section.three-column .col {
     margin: 0 auto 10rem auto;
   }
+  p {
+    font-size: 1.6rem;
+    /*line-height: 1.325;
+    letter-spacing: -.02em;
+    margin-bottom: 3.5rem;
+    max-width: 75rem;*/
+  }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-device-width: 320px) {
   p {
     font-size: 1.6rem;
     /*line-height: 1.325;
