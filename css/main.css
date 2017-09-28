@@ -35,7 +35,7 @@ a {
 a[href^='http://'],
 a[href^='https://'] {
   background: url('../img/icons/external-link.svg') right center no-repeat;
-  background-size: 14px auto;
+  background-size: 16px auto;
   padding-right: 20px;
 }
 
