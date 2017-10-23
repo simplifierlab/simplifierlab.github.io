@@ -6,6 +6,12 @@ body {
   margin: 0;
   padding: 0;
 }
+nav {
+  position: fixed;
+  background-color: rgba(247, 247, 255, .95);
+  width: 100%;
+  margin-bottom: 10rem;
+}
 h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   margin: 0;
   padding: 0;
@@ -46,11 +52,12 @@ a[href^='https://github.com'] {
 }
 
 .hero {
-  padding: 12rem 0 5rem 0;
+  padding: 18rem 0 5rem 0;
 }
 
 .nav {
-  margin-bottom: 7rem;
+  /*margin-bottom: 7rem;*/
+  padding: 7rem 0 1rem 0;
   display: block;
   border-bottom: none;
   font-size: 4.8rem;
@@ -125,6 +132,13 @@ footer .social-btn .fa {
 }
 
 /* Structure */
+
+.container-fluid {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -132,11 +146,8 @@ footer .social-btn .fa {
   padding-left: 20px;
   padding-right: 20px;
 }
-.container-fluid {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  clear: both;
+.container p {
+  /*padding-left: 5rem;*/
 }
 section.three-column {
   display: flex;
