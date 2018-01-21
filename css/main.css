@@ -38,6 +38,10 @@ a {
   border-bottom: .05rem solid #f30;
 }
 
+a:visited {
+  color: #7b7976;
+}
+
 a[href^='http://'],
 a[href^='https://'] {
   background: url('../img/icons/external-link.svg') right center no-repeat;
@@ -130,7 +134,18 @@ footer .social-btn .fa {
 .color-light-grey {
   background-color: #f7f7fe;
 }
-
+.color-light-aqua {
+  background-color: #cdebeb;
+}
+.color-lighter-aqua {
+  background-color: #e6f5f5;
+}
+.color-light-yellow {
+  background-color: #f9f9df;
+}
+.color-light-moss {
+  background-color: #d3ded9;
+}
 /* Structure */
 
 .container-fluid {
@@ -202,11 +217,10 @@ section.one-column img {
   margin-bottom: 20rem;
 }
 section.one-column-full {
-  padding-bottom: 20rem;
+  margin-bottom: 10rem;
 }
 section.one-column-full img {
   max-width: 100%;
-  margin-bottom: .2rem;
 }
 
 @media all and (max-device-width: 640px) {
