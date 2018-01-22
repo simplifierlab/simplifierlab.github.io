@@ -25,13 +25,13 @@ li {
 }
 
 p {
-  /* font-size: 3.2rem; */
-  font-size: 22px;
-  /* line-height: 1.325; */
-  line-height: 1.675;
+  font-size: 3.2rem;
+  /* font-size: 26px; */
+  /* line-height: 1.3625; */
+  line-height: 1.5;
   letter-spacing: -.02em;
   margin-bottom: 3.5rem;
-  max-width: 68rem;
+  max-width: 84rem;
 }
 
 a {
