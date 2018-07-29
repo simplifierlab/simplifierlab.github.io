@@ -129,6 +129,11 @@ footer .social-btn .fa {
   font-size: 1.6rem;
 }
 
+.caption a {
+  color: #999;
+  border-bottom: 1px dotted #999;
+}
+
 .col .button::before {
   content: "\2192";
   font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
@@ -159,6 +164,8 @@ footer .social-btn .fa {
 .color-blush {
   background-color:#e5d9de;
 }
+
+
 /* Structure */
 
 .container-fluid {
