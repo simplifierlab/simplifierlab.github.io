@@ -92,7 +92,7 @@ def delay():
 
 def getplace(lat, lon):
     """Determines city, country from lat, long"""
-    url = "http://maps.googleapis.com/maps/api/geocode/json?"
+    url = "https://maps.googleapis.com/maps/api/geocode/json?"
     url += "latlng=%s,%s&sensor=false" % (lat, lon)
     # print (url)
     v = urlopen(url).read()

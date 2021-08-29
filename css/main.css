@@ -44,7 +44,7 @@ a:visited {
   color: #7b7976;
 }
 
-a[href^='http://'],
+a[href^='https://'],
 a[href^='https://'] {
   background: url('../img/icons/external-link.svg') right center no-repeat;
   background-size: 16px auto;
