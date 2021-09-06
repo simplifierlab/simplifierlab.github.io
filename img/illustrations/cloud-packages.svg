@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
 <rect x="-10" y="-10" opacity="0.3" fill="#D8DCE3" enable-background="new    " width="1049" height="790"/>
 <path fill="#FFFFFF" d="M345,568c0,6.627-5.373,12-12,12H57c-6.627,0-12-5.373-12-12V142c0-6.627,5.373-12,12-12h276
@@ -1348,12 +1348,12 @@
 	<path fill="#666666" d="M898.353,488.577c0,0.064-0.015,0.108-0.042,0.132c-0.028,0.024-0.082,0.036-0.162,0.036h-0.684
 		c-0.104,0-0.156-0.048-0.156-0.144v-0.912c0-0.088,0.035-0.133,0.107-0.133h0.828c0.072,0,0.108,0.041,0.108,0.12V488.577z"/>
 </g>
-<polygon opacity="0.6" fill="#FACFC9" enable-background="new    " points="839.381,336.246 802.423,314.629 802.182,271.813 
+<polygon opacity="0.6" fill="#FACFC9" enable-background="new    " points="839.381,336.246 802.423,314.629 802.182,271.813
 	838.902,250.613 875.86,272.23 876.102,315.045 "/>
 <g>
 	<path fill="#A1B2C2" d="M833.501,328.391l-36.959-21.615l-0.241-42.816l36.721-21.2l36.959,21.617l0.241,42.815L833.501,328.391z
 		 M867.716,305.866l-0.348-39.982l-34.452-20.293l-34.109,19.693l0.348,39.983l34.453,20.292L867.716,305.866z"/>
-	<polygon fill="#A1B2C2" points="799.153,263.159 833.606,283.451 867.716,263.757 870.222,265.082 833.501,286.283 
+	<polygon fill="#A1B2C2" points="799.153,263.159 833.606,283.451 867.716,263.757 870.222,265.082 833.501,286.283
 		796.542,264.666 	"/>
 	<g>
 		<path fill="#A1B2C2" d="M834.722,254.891v9.587h9.222v2.448h-9.222v9.668h-2.609v-9.668h-9.222v-2.448h9.222v-9.587H834.722z"/>
