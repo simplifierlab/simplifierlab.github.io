@@ -180,8 +180,10 @@ footer .social-btn .fa {
   padding-left: 20px;
   padding-right: 20px;
 }
-.container p {
-  /*padding-left: 5rem;*/
+.container.anchor {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* background-color: #ff0000; */
 }
 section.three-column {
   display: flex;
