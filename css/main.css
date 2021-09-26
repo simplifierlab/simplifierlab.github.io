@@ -1,8 +1,11 @@
+
+
 html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   margin: 0;
   padding: 0;
 }
@@ -15,7 +18,8 @@ nav {
 h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   margin: 0;
   padding: 0;
-  color: #43403c;
+  color: #212B36;
+;
 }
 
 li {
@@ -26,10 +30,7 @@ li {
 
 p {
   font-size: 3.2rem;
-  /* font-size: 26px; */
-  /* line-height: 1.3625; */
   line-height: 1.5;
-  letter-spacing: -.03em;
   margin-bottom: 3.5rem;
   max-width: 84rem;
 }
@@ -57,8 +58,54 @@ a[href^='https://github.com'] {
 }
 
 .hero {
-  padding: 16rem 0 0 0;
+  /* padding: 16rem 0 0 0; */
+  padding-top: 12rem;
 }
+
+.hero p {
+  font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  font-size: 3rem;
+  line-height: 40px;
+  color: #637381;
+  max-width: 76.8rem;
+  -webkit-font-smoothing: antialiased;
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* text-rendering: optimizeLegibility; */
+}
+
+.hero p a {
+  /* color: #212B36; */
+  color: #000000;
+  border: none;
+}
+
+.hero p sup {
+  font-family: "Space Mono";
+  font-size: 1.325rem;
+  line-height: 1.325rem;
+  top: -14px;
+  /* display: inline-block; */
+  padding: 0;
+  margin: 0;
+  padding-left: 2px;
+  letter-spacing: 1px;
+}
+
+section.feature h2 {
+  font-family: 'Space Grotesk', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 18rem;
+  display: inline-block;
+  width: 100%;
+  min-width: 200px;
+  max-width: 320px;
+}
+
+section.feature ~ p {
+  padding-top: 5rem;
+}
+
 
 .nav {
   /*margin-bottom: 7rem;*/
@@ -174,17 +221,79 @@ footer .social-btn .fa {
   clear: both;
 }
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  /* max-width: 960px; */
+  /* margin: 0 auto; */
   box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 .container.anchor {
   padding-top: 4rem;
   padding-bottom: 4rem;
   /* background-color: #ff0000; */
 }
+
+section.feature {
+  padding-bottom: 19.2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  border-bottom: 1px solid #000000;
+
+}
+
+section.feature .listing {
+  display: flex;
+  flex-flow: col nowrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+section.feature .listing .col {
+  display: block;
+  width: 100%;
+  min-width: 350px;
+  /* border: 1px solid #0f0; */
+}
+
+section.feature .listing p {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  /* font-family: 'AllianceNo1-Regular',
+          system-ui,
+          -apple-system, /* Firefox supports this but not yet `system-ui` */
+          'Segoe UI',
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif,
+          'Apple Color Emoji',
+          'Segoe UI Emoji'; */
+  /* width: calc(100% - 24px); */
+  padding: 0;
+  padding-top: 1.2rem;
+  margin-bottom: 0;
+  /* border: 1px solid #f00; */
+  width: calc(100% - 24px);
+}
+
+section.feature .listing p a {
+  display: block;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 8px;
+}
+
+section .listing code {
+  width: 4.8rem;
+  font-size: 1.6rem;
+  display: inline-block;
+  letter-spacing: .125rem;
+  font-family: 'Space Mono', monospace;
+  color: #454F5B;
+}
+
 section.three-column {
   display: flex;
   padding-bottom: 5rem;
