@@ -12,14 +12,13 @@ body {
 nav {
   position: fixed;
   background-color: rgba(247, 247, 255, .95);
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 10rem;
 }
 h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   margin: 0;
   padding: 0;
   color: #212B36;
-;
 }
 
 li {
@@ -32,7 +31,7 @@ p {
   font-size: 3.2rem;
   line-height: 1.5;
   margin-bottom: 3.5rem;
-  max-width: 84rem;
+  max-width: 74rem;
 }
 
 a {
@@ -62,25 +61,31 @@ a[href^='https://github.com'] {
   padding-top: 12rem;
 }
 
+article.hero {
+  padding-top: 8rem;
+}
+
 .hero p {
   font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   font-size: 3rem;
-  line-height: 40px;
+  line-height: 4rem;
   color: #637381;
-  max-width: 76.8rem;
+  max-width: 74rem;
   -webkit-font-smoothing: antialiased;
   /* -moz-osx-font-smoothing: grayscale; */
   /* text-rendering: optimizeLegibility; */
 }
-
 .hero p a {
   /* color: #212B36; */
   color: #000000;
   border: none;
 }
+.hero p a:hover {
+  color: #108043;
+}
 
 .hero p sup {
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   font-size: 1.325rem;
   line-height: 1.325rem;
   top: -14px;
@@ -91,8 +96,13 @@ a[href^='https://github.com'] {
   letter-spacing: 1px;
 }
 
+article.hero p {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
 section.feature h2 {
-  font-family: 'Space Grotesk', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  font-family: 'Sora', 'Space Grotesk', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   font-weight: 600;
   font-size: 4.8rem;
   line-height: 18rem;
@@ -106,23 +116,30 @@ section.feature ~ p {
   padding-top: 5rem;
 }
 
-
+nav {
+  padding: 0;
+}
 .nav {
-  /*margin-bottom: 7rem;*/
-  padding: 6rem 0 1rem 0;
+  /* padding: 6rem 0 1rem 0; */
+  padding: 6.8rem 4rem 2.4rem 4rem;
   display: block;
-  border-bottom: none;
-  font-size: 4.8rem;
+  border-right: 1px solid #c9c9c9;
+  border-bottom: 0;
+  font-size: 3.2rem;
   line-height: 4.8rem;
+  color: #637381;
 }
-.nav:visited {
-  color: #f30;
-}
-/* .nav i {
-  font-size: 4.8rem;
-  padding-right: 10px;
-} */
 
+a.nav:hover {
+  color: #000000;
+}
+
+.nav:visited {
+  color: #637381;
+
+}
+
+/*
 footer.container {
   padding-bottom: 5rem;
   text-align: right;
@@ -155,24 +172,29 @@ footer .social-btn .fa {
   text-decoration: none;
   border-radius: 50% !important;
   outline: 0 !important;
-}
+} */
 
 .caption {
-  margin: 8rem 0;
+  margin: 4rem 0;
 }
 
 .caption p {
+  /* font-family: 'Space Mono', monospace; */
+  /* font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji'; */
+  font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   font-size: 1.4rem;
-  line-height: 1.625;
+  line-height: 3rem;
   margin: 0;
-  /* color: #999; */
+  color: #637381;
   letter-spacing: normal;
 }
 
 .caption p strong {
-  color: #000;
-  font-weight: 700;
-  font-size: 1.6rem;
+  font-family: 'Sora','AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  color: #000000;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -.15rem;
 }
 
 .caption a {
@@ -221,22 +243,20 @@ footer .social-btn .fa {
   clear: both;
 }
 .container {
-  /* max-width: 960px; */
-  /* margin: 0 auto; */
   box-sizing: border-box;
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
   padding-left: 8rem;
   padding-right: 8rem;
+}
+article.container {
+  padding-left:12rem;
 }
 .container.anchor {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  /* background-color: #ff0000; */
 }
 
 section.feature {
-  padding-bottom: 19.2rem;
+  padding-bottom: 24rem;
   display: flex;
   flex-flow: row nowrap;
   align-items: baseline;
@@ -246,8 +266,6 @@ section.feature {
 
 section.feature .listing {
   display: flex;
-  flex-flow: col nowrap;
-  align-items: stretch;
   width: 100%;
 }
 
@@ -255,27 +273,14 @@ section.feature .listing .col {
   display: block;
   width: 100%;
   min-width: 350px;
-  /* border: 1px solid #0f0; */
 }
 
 section.feature .listing p {
   font-size: 2rem;
   line-height: 3.2rem;
-  /* font-family: 'AllianceNo1-Regular',
-          system-ui,
-          -apple-system, /* Firefox supports this but not yet `system-ui` */
-          'Segoe UI',
-          Roboto,
-          Helvetica,
-          Arial,
-          sans-serif,
-          'Apple Color Emoji',
-          'Segoe UI Emoji'; */
-  /* width: calc(100% - 24px); */
   padding: 0;
   padding-top: 1.2rem;
   margin-bottom: 0;
-  /* border: 1px solid #f00; */
   width: calc(100% - 24px);
 }
 
@@ -284,6 +289,18 @@ section.feature .listing p a {
   border-bottom: 1px solid #000000;
   padding-bottom: 8px;
 }
+
+section.feature .listing p a[href^='https://'] {
+  background: url('../img/icons/external-link.svg') right center no-repeat;
+  background-size: 16px auto;
+  padding-right: 20px;
+}
+
+section.feature .listing p a:hover {
+  border-color: #108043;
+}
+
+
 
 section .listing code {
   width: 4.8rem;
@@ -296,25 +313,24 @@ section .listing code {
 
 section.three-column {
   display: flex;
+  flex-flow: row;
   padding-bottom: 5rem;
-  /*flex-wrap: wrap;*/
-  /*overflow: hidden;
-  height: auto;*/
 }
 section.justify {
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 section.three-column .col {
-  max-width: 280px;
+  /* max-width: 280px; */
+  max-width: 33%;
   flex-direction: row;
 }
 section.three-column .col-one-third {
-  width: 300px;
+  /* width: 300px; */
   padding-right: 20px;
   flex-direction: row;
 }
 section.three-column .col-two-thirds {
-  width: 500px;
+  /* width: 500px; */
   padding: 0 20px;
   flex-direction: row;
 }

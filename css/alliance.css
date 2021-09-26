@@ -24,3 +24,8 @@
   font-family: "AllianceNo1-Regular";
   src: url('../fonts/Alliance/AllianceNo1-Regular.woff2') format('woff2'), url('webFonts/Alliance/AllianceNo1-Regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: "AllianceNo1-Bold";
+  src: url('../fonts/Alliance/AllianceNo1-Bold.woff2') format('woff2'), url('webFonts/Alliance/AllianceNo1-Bold.woff') format('woff');
+}
