@@ -81,7 +81,7 @@ article.hero {
   border: none;
 }
 .hero p a:hover {
-  color: #108043;
+  color: #ff3300;
 }
 
 .hero p sup {
@@ -176,7 +176,7 @@ footer .social-btn .fa {
 } */
 
 .caption {
-  margin: 4rem 0;
+  margin: 8rem 0;
 }
 
 .caption p {
@@ -184,10 +184,11 @@ footer .social-btn .fa {
   /* font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji'; */
   font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   font-size: 1.4rem;
-  line-height: 3rem;
+  line-height: 2.4rem;
   margin: 0;
   color: #637381;
   letter-spacing: normal;
+  max-width: 54rem;
 }
 
 .caption p strong {
@@ -196,10 +197,13 @@ footer .social-btn .fa {
   font-weight: 600;
   font-size: 4rem;
   letter-spacing: -.15rem;
+  display: block;
+  padding-bottom: 2rem;
+  width: 100%;
 }
 
 .caption a {
-  color: #999;
+  color: #000000;
   border-bottom: 1px dotted #999;
 }
 
@@ -301,7 +305,7 @@ section.feature .listing p a[href^='https://'] {
 }
 
 section.feature .listing p a:hover {
-  border-color: #108043;
+  border-color: #ff3300;
 }
 
 
