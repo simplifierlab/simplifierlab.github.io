@@ -208,6 +208,7 @@ footer .social-btn .fa {
   text-rendering: optimizeLegibility;
 }
 
+.caption h3,
 .caption p strong {
   font-family: 'Sora','AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   color: #000000;
