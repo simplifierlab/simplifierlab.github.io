@@ -209,7 +209,7 @@ footer .social-btn .fa {
 }
 
 .caption h3 {
-  font-family: 'Sora','AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  font-family: 'Sora','AllianceNo1-Bold', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   color: #000000;
   font-weight: 600;
   font-size: 4rem;
@@ -221,6 +221,11 @@ footer .social-btn .fa {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+.caption h3.alt {
+  font-family: 'AllianceNo1-Bold', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  /* letter-spacing: 0; */
 }
 
 .caption a {
