@@ -72,8 +72,8 @@ article.hero {
   color: #637381;
   max-width: 74rem;
   -webkit-font-smoothing: antialiased;
-  /* -moz-osx-font-smoothing: grayscale; */
-  /* text-rendering: optimizeLegibility; */
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 .hero p a {
   /* color: #212B36; */
@@ -204,7 +204,8 @@ footer .social-btn .fa {
   letter-spacing: normal;
   max-width: 54rem;
   -webkit-font-smoothing: antialiased;
-
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .caption p strong {
@@ -215,7 +216,7 @@ footer .social-btn .fa {
   letter-spacing: -.025rem;
   display: block;
   padding-bottom: 2rem;
-  width: 100%;
+  max-width: 100%;
 }
 
 .caption a {
@@ -391,7 +392,7 @@ section.one-column-full {
 }
 section.one-column-full img {
   object-fit: cover;
-  max-width: 96rem;
+  width: calc(100vw - 16rem);
 }
 
 @media all and (max-device-width: 640px) {
