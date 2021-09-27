@@ -214,10 +214,13 @@ footer .social-btn .fa {
   font-weight: 600;
   font-size: 4rem;
   line-height: 5rem;
-  letter-spacing: -.025rem;
+  letter-spacing: -.08rem;
   display: block;
   padding-bottom: 2rem;
   max-width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .caption a {
