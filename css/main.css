@@ -197,12 +197,14 @@ footer .social-btn .fa {
   /* font-family: 'Space Mono', monospace; */
   /* font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji'; */
   font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
-  font-size: 1.4rem;
-  line-height: 2.4rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
   margin: 0;
   color: #637381;
   letter-spacing: normal;
   max-width: 54rem;
+  -webkit-font-smoothing: antialiased;
+
 }
 
 .caption p strong {
@@ -388,7 +390,8 @@ section.one-column-full {
   margin-bottom: 10rem;
 }
 section.one-column-full img {
-  max-width: 100%;
+  object-fit: cover;
+  max-width: 96rem;
 }
 
 @media all and (max-device-width: 640px) {
