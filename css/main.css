@@ -118,7 +118,21 @@ section.feature ~ p {
 }
 
 nav {
-  padding: 0;
+  padding: 2rem 8rem;
+  display: block;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+}
+nav a {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  border: 0;
+  background: url('../img/icons/arrow.svg') left center no-repeat;
+  background-size: 6rem 0 6rem auto;
+  padding-left: 10rem;
 }
 .nav {
   /* padding: 6rem 0 1rem 0; */
