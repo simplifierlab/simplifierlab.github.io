@@ -236,6 +236,12 @@ footer .social-btn .fa {
   border-bottom: 1px dotted #999;
 }
 
+#viewport {
+  color: #637381;
+  font-family: 'Space Mono', monospace;
+  visibility: hidden;
+}
+
 .col .button::before {
   content: "\2192";
   font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
