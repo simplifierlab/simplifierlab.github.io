@@ -355,18 +355,22 @@ section .listing code {
 }
 
 section.three-column {
-  display: flex;
-  flex-flow: row;
-  padding-bottom: 5rem;
+  display: block;
+  /* flex-flow: row; */
+  /* padding-bottom: 5rem; */
 }
-section.justify {
+
+section.one-column,
+section.three-column.justify .col
+ {
+  max-width: 100%;
+  padding-bottom: 1rem;
+}
+
+/* section.justify {
   justify-content: space-evenly;
-}
-section.three-column .col {
-  /* max-width: 280px; */
-  max-width: 33%;
-  flex-direction: row;
-}
+} */
+
 section.three-column .col-one-third {
   /* width: 300px; */
   padding-right: 20px;
@@ -381,9 +385,9 @@ section.three-column .col img {
   max-width: 100%;
   border-radius: .5rem;
 }
-section.three-column .col:not(:last-child){
+/* section.three-column .col:not(:last-child){
   padding-right: 10px;
-}
+} */
 section.two-column {
   display: flex;
 }
@@ -394,9 +398,8 @@ section.two-column .col {
 section.two-column .col:not(:last-child) {
   padding-right: 20px;
 }
-section.one-column {
-  padding: 0 10rem 10rem 10rem;
-}
+
+
 section.one-column img {
   max-width: 100%;
   border-radius: .5rem;
@@ -460,6 +463,28 @@ section.one-column-full img {
 
   section.feature .listing {
     display: flex;
+  }
+
+  section.three-column {
+    display: flex;
+    flex-flow: row;
+    /* padding-bottom: 1rem; */
+  }
+  section.justify {
+    justify-content: space-evenly;
+  }
+  section.three-column.justify .col {
+    /* max-width: 280px; */
+    /* padding-right: 0; */
+    max-width: 33.33%;
+    flex-direction: row;
+  }
+  section.three-column .col:not(:last-child){
+    /* padding-right: 10px; */
+  }
+
+  section.one-column {
+    padding: 0 10rem 10rem 10rem;
   }
 
 }
