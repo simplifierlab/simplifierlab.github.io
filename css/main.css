@@ -230,7 +230,8 @@ footer .social-btn .fa {
   line-height: 6rem;
   letter-spacing: -1.5px;
   display: block;
-  padding-bottom: 3.2rem;
+  padding-bottom: .8rem;
+  /* padding-bottom: 3.2rem; */
   /* max-width: 100%; */
   max-width: 54rem;
   -webkit-font-smoothing: antialiased;
