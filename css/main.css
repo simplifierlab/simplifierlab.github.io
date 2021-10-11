@@ -196,15 +196,18 @@ footer .social-btn .fa {
 }
 
 .caption p {
-  /* font-family: 'Space Mono', monospace; */
-  font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
   /* font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji'; */
-  font-size: 1.5rem;
+  /* font-family: 'AllianceNo1-Regular', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji'; */
+  /* font-size: 1.5rem; */
   font-weight: 400;
   line-height: 2.5rem;
   margin: 0;
   color: #637381;
-  letter-spacing: normal;
+  /* letter-spacing: normal; */
   max-width: 54rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -223,12 +226,13 @@ footer .social-btn .fa {
   font-family: 'Poppins','AllianceNo1-Bold', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji';
   color: #000000;
   font-weight: 600;
-  font-size: 6.4rem;
-  line-height: 7rem;
-  letter-spacing: -.08rem;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  letter-spacing: -1.5px;
   display: block;
-  padding-bottom: 1rem;
-  max-width: 100%;
+  padding-bottom: 3.2rem;
+  /* max-width: 100%; */
+  max-width: 54rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -464,6 +468,11 @@ section.one-column-full img {
     box-sizing: border-box;
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .caption h3 {
+    font-size: 7.2rem;
+    line-height: 8rem;
   }
 }
 
