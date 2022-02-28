@@ -314,7 +314,7 @@ article.container {
 
 section.feature {
   padding-bottom: 24rem;
-  margin-bottom: 12rem;
+  /* margin-bottom: 12rem; */
   /* display: flex;
   flex-flow: row nowrap;
   align-items: baseline; */
