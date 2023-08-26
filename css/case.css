@@ -1,0 +1,104 @@
+#case-study .container {
+	max-width: 800px;
+	margin: 0 auto;
+    padding: 0;
+}
+
+#case-study header.container {
+	/* margin: 0; */
+	padding: 200px 0 40px 0;
+}
+
+#case-study .container.timeline {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+#case-study .container.timeline .connector {
+    width: 48px;
+    border-left: 1px solid var(--color-sky);
+    /* min-height: 80px; */
+    align-self: stretch;
+    /* margin: 0; */
+    /* padding: 0; */
+    padding-left: 12px;
+    margin-left: 12px;
+    padding-bottom: 160px;
+}
+
+#case-study .container.timeline .node img {
+    margin-left: -19px;
+}
+
+#case-study p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--color-ink-light);
+    margin-bottom: 16px;
+}
+
+#case-study .container.timeline .date {
+    font-feature-settings: 'tnum' on, 'lnum' on, 'zero' on, 'ss06' on;
+    line-height: 120%;
+    padding-bottom: 12px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#case-study .container.timeline h2 {
+    font-size: 27px;
+    line-height: 120%;
+    font-weight: 600;
+    max-width: 480px;
+}
+
+
+#case-study .lede {
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
+		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--color-ink-lighter);
+	max-width: 680px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+#case-study .lede a {
+  /* color: #212B36; */
+  color: #000000;
+  border: none;
+}
+
+#case-study .lede a:hover {
+  color: #ff3300;
+}
+
+#case-study .lede a[href^='https://'] {
+  background: url('../img/icons/external-link.svg') right center no-repeat;
+  background-size: 14px auto;
+  padding-right: 18px;
+  display: inline-block;
+  /* margin-right: 2px; */
+}
+
+#case-study .eyebrow {
+    margin-bottom: 0;
+    line-height: 120%;
+    font-size: 20px;
+	color: var(--color-ink-light);
+}
+
+#case-study h1 {
+	font-family: 'Sora', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--color-ink);
+    line-height: 120%;
+    padding-bottom: 40px;
+}
