@@ -1,7 +1,11 @@
+#case-study {
+    transition: all 0.25s ease;
+}
 #case-study .container {
 	max-width: 800px;
 	margin: 0 auto;
     padding: 0;
+    /* border: 1px solid #00f; */
 }
 
 #case-study header.container {
@@ -20,12 +24,16 @@
     width: 48px;
     border-left: 1px solid var(--color-sky);
     /* min-height: 80px; */
+    min-height: 50vh;
     align-self: stretch;
     /* margin: 0; */
     /* padding: 0; */
     padding-left: 12px;
     margin-left: 12px;
     padding-bottom: 160px;
+}
+#case-study .container.timeline .connector:first-of-type {
+    min-height: 20vh;
 }
 
 #case-study .container.timeline .node img {
@@ -45,24 +53,35 @@
     line-height: 120%;
     padding-bottom: 12px;
     margin: 0;
-    text-transform: uppercase;
+    font-size: 14px;
+    /* text-transform: uppercase; */
 }
 
 #case-study .container.timeline h2 {
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
     font-size: 27px;
     line-height: 120%;
     font-weight: 600;
     max-width: 480px;
+    margin-bottom: 40px;
+}
+
+#case-study .container.timeline h3 {
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 600;
+    margin-bottom: 9px;
 }
 
 
 #case-study .lede {
 	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
 		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-	font-size: 20px;
-	line-height: 28px;
+	font-size: 19px;
+	line-height: 29px;
 	color: var(--color-ink-lighter);
-	max-width: 680px;
+	max-width: 640px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -86,19 +105,49 @@
   /* margin-right: 2px; */
 }
 
-#case-study .eyebrow {
+#case-study .subtitle{
+    font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
     margin-bottom: 0;
-    line-height: 120%;
-    font-size: 20px;
+    /* line-height: 55px; */
+    font-size: 50px;
 	color: var(--color-ink-light);
+    display: block;
+    font-weight: 400;
 }
 
 #case-study h1 {
 	font-family: 'Sora', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
 		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
     font-weight: 700;
-    font-size: 60px;
-    color: var(--color-ink);
-    line-height: 120%;
+    font-size: 50px;
+    color: #000000;
+    line-height: 54px;
     padding-bottom: 40px;
+    letter-spacing: -.015em;
+}
+
+#case-study article {
+    /* border: 1px solid #f00; */
+    width: 100%;
+}
+#case-study #brief .content-2col {
+    display: flex;
+    gap: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#case-study #brief div p {
+    font-size: 14px;   
+    color: var(--color-ink-lighter);
+}
+
+#case-study .colorbox {
+    min-height: 100vh;
+}
+
+#case-study .highlight {
+    background-color: #ffffff;
+    color: var(--color-ink);
 }
