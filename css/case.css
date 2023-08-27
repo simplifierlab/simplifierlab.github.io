@@ -1,11 +1,14 @@
 #case-study {
-    transition: all 0.25s ease;
+	transition: all 0.25s ease;
 }
 #case-study .container {
 	max-width: 960px;
 	margin: 0 auto;
-    padding: 0;
-    /* border: 1px solid #00f; */
+	padding: 0;
+	/* border: 1px solid #00f; */
+}
+#case-study .container.wide {
+	max-width: calc(100% - 320px);
 }
 
 #case-study header.container {
@@ -14,140 +17,155 @@
 }
 
 #case-study .container.timeline {
-    display: flex;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
+	align-self: stretch;
 }
 
 #case-study .container.timeline .connector {
-    width: 48px;
-    border-left: 1px solid var(--color-sky);
-    /* min-height: 80px; */
-    min-height: 50vh;
-    align-self: stretch;
-    /* margin: 0; */
-    /* padding: 0; */
-    padding-left: 12px;
-    margin-left: 12px;
-    padding-bottom: 160px;
+	width: 48px;
+	border-left: 1px solid var(--color-sky);
+	/* min-height: 80px; */
+	min-height: 50vh;
+	align-self: stretch;
+	/* margin: 0; */
+	/* padding: 0; */
+	padding-left: 12px;
+	margin-left: 12px;
+	padding-bottom: 160px;
 }
 #case-study .container.timeline .connector:first-of-type {
-    min-height: 20vh;
+	min-height: 20vh;
 }
 
 #case-study .container.timeline .node img {
-    margin-left: -19px;
+	margin-left: -19px;
 }
 
 #case-study p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    color: var(--color-ink-light);
-    margin-bottom: 16px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+	color: var(--color-ink-light);
+	margin-bottom: 16px;
 }
 
 #case-study .container.timeline .date {
-    font-feature-settings: 'tnum' on, 'lnum' on, 'zero' on, 'ss06' on;
-    line-height: 120%;
-    padding-bottom: 12px;
-    margin: 0;
-    font-size: 14px;
-    /* text-transform: uppercase; */
+	font-feature-settings: 'tnum' on, 'lnum' on, 'zero' on, 'ss06' on;
+	line-height: 120%;
+	padding-bottom: 12px;
+	margin: 0;
+	font-size: 14px;
+	/* text-transform: uppercase; */
 }
 
 #case-study .container.timeline h2 {
-	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
-		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-    font-size: 27px;
-    line-height: 120%;
-    font-weight: 600;
-    max-width: 480px;
-    margin-bottom: 40px;
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto,
+		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-size: 52px;
+	line-height: 48px;
+	font-weight: 600;
+	max-width: 640px;
+	margin-bottom: 40px;
+}
+#case-study .container.timeline h2 span {
+    color: var(--color-ink-lighter);
+    display: block;
 }
 
 #case-study .container.timeline h3 {
-    font-size: 16px;
-    line-height: 120%;
-    font-weight: 600;
-    margin-bottom: 9px;
+	font-size: 16px;
+	line-height: 120%;
+	font-weight: 600;
+	margin-bottom: 9px;
 }
 
-
 #case-study .lede {
-	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
-		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-	font-size: 19px;
-	line-height: 29px;
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto,
+		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-size: 21px;
+	line-height: 150%;
 	color: var(--color-ink-lighter);
 	max-width: 640px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 }
+#case-study .container.wide .lede {
+	font-size: 21px;
+	line-height: 30px;
+	max-width: 800px;
+	font-weight: 500;
+}
 
 #case-study .lede a {
-  /* color: #212B36; */
-  color: #000000;
-  border: none;
+	/* color: #212B36; */
+	color: #000000;
+	border: none;
 }
 
 #case-study .lede a:hover {
-  color: #ff3300;
+	color: #ff3300;
 }
 
-#case-study .lede a[href^='https://'] {
-  background: url('../img/icons/external-link.svg') right center no-repeat;
-  background-size: 14px auto;
-  padding-right: 18px;
-  display: inline-block;
-  /* margin-right: 2px; */
+#case-study .lede a[href^='https://']
+{
+	background: url('../img/icons/external-link.svg') right center no-repeat;
+	background-size: 14px auto;
+	padding-right: 18px;
+	display: inline-block;
+	/* margin-right: 2px; */
 }
 
-#case-study .subtitle{
-    font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-    margin-bottom: 0;
-    /* line-height: 55px; */
-    font-size: 50px;
-	color: var(--color-ink-light);
-    display: block;
-    font-weight: 400;
+#case-study .subtitle {
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto,
+		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	margin-bottom: 0;
+	/* line-height: 55px; */
+	/* font-size: 36px; */
+	/* line-height: 40px; */
+	color: var(--color-ink-lighter);
+	display: block;
+	font-weight: 500;
+	/* letter-spacing: normal; */
 }
 
 #case-study h1 {
-	font-family: 'Sora', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
-		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-    font-weight: 700;
-    font-size: 50px;
-    color: #000000;
-    line-height: 54px;
-    padding-bottom: 40px;
-    letter-spacing: -.015em;
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
+		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	/* font-family: 'Sora', 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
+		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; */
+	font-weight: 700;
+	font-size: 80px;
+	color: #000000;
+	line-height: 82px;
+	padding-bottom: 40px;
+	letter-spacing: -0.015em;
 }
 
 #case-study article {
-    /* border: 1px solid #f00; */
-    width: 100%;
+	/* border: 1px solid #f00; */
+	width: 100%;
 }
 #case-study #brief .content-2col {
-    display: flex;
-    gap: 48px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+	display: flex;
+	gap: 48px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 #case-study #brief div p {
-    font-size: 14px;   
-    color: var(--color-ink-lighter);
+	font-size: 14px;
+	color: var(--color-ink-lighter);
+	line-height: 20px;
 }
 
 #case-study .colorbox {
-    min-height: 100vh;
+	min-height: 50vh;
 }
 
 #case-study .highlight {
-    background-color: #ffffff;
-    color: var(--color-ink);
+	background-color: #ffffff;
+	color: var(--color-ink);
 }
