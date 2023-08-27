@@ -16,13 +16,14 @@ body {
   --color-sky: #dfe3e8;
 	--color-tertiary-gray-02: #eaf3f7;
 
-  /* --color-light-grey: #f7f7fe; */
+  --color-lighter-grey: #f7f7fe;
   --color-light-grey: #F5F5F7;
   --color-light-aqua: #cdebeb;
   --color-lighter-aqua: #e6f5f5;
   --color-light-yellow: #f9f9df;
   --color-light-moss: #d3ded9;
-  --color-blush: #e5d9de;
+  /* --color-blush: #e5d9de; */
+  --color-blush: #F2ECEF;
 
 /* 
   .color-light-aqua {
