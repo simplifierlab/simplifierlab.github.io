@@ -37,11 +37,15 @@
 }
 #case-study .container.timeline .connector:first-of-type {
 	/* min-height: 20vh; */
-    min-height: 80px;
+	min-height: 80px;
 }
 
 #case-study .container.timeline .node .node-image {
 	margin-left: -19px;
+	width: 13px;
+	height: 15px;
+	display: inline-block;
+    padding-top: 2px;
 }
 
 #case-study p {
@@ -53,7 +57,8 @@
 }
 
 #case-study .container.timeline .date {
-    font-family: 'N27';
+	font-family: 'N27', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 	/* font-feature-settings: 'tnum' on, 'lnum' on, 'zero' on, 'ss06' on; */
 	line-height: 120%;
 	padding-bottom: 12px;
@@ -72,8 +77,8 @@
 	margin-bottom: 40px;
 }
 #case-study .container.timeline h2 span {
-    color: var(--color-ink-lighter);
-    display: block;
+	color: var(--color-ink-lighter);
+	display: block;
 }
 
 #case-study .container.timeline h3 {
@@ -84,7 +89,7 @@
 }
 
 #case-study .container.timeline h3:not(:first-of-type) {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 #case-study .lede {
@@ -138,8 +143,8 @@
 }
 
 #case-study h1 {
-	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
-		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-family: 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', Roboto,
+		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 	/* font-family: 'Sora', 'SF Pro Display', system-ui, -apple-system, 'Segoe UI',
 		Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; */
 	font-weight: 700;
@@ -165,8 +170,8 @@
 	font-size: 14px;
 	color: var(--color-ink-lighter);
 	line-height: 20px;
-    /* margin-top: 5px; */
-    margin-bottom: 10px;
+	/* margin-top: 5px; */
+	margin-bottom: 10px;
 }
 
 #case-study .colorbox {
@@ -179,8 +184,8 @@
 }
 
 #case-study .graphic-ia {
-    background: url(../img/uscis/IA.png) center 240px no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    height: 400px;
+	background: url(../img/uscis/IA.png) center 240px no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	height: 400px;
 }
