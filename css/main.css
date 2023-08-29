@@ -25,6 +25,8 @@ body {
   /* --color-blush: #e5d9de; */
   --color-blush: #F2ECEF;
 
+  --color-red-orange: #ff0000;
+
 /* 
   .color-light-aqua {
     background-color: #cdebeb;
@@ -173,6 +175,7 @@ nav {
 	display: block;
 	border-bottom: 1px solid #333333;
 	width: 100%;
+  z-index: 1 !important;
 }
 nav a {
 	display: inline-block;
