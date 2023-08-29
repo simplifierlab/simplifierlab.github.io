@@ -45,7 +45,7 @@
 	width: 13px;
 	height: 15px;
 	display: inline-block;
-    padding-top: 2px;
+	padding-top: 2px;
 }
 
 #case-study p {
@@ -166,7 +166,8 @@
 	padding-bottom: 40px;
 }
 
-#case-study #brief div p {
+#case-study #brief div p,
+#case-study #user-research .content-2col p {
 	font-size: 14px;
 	color: var(--color-ink-lighter);
 	line-height: 20px;
@@ -188,4 +189,25 @@
 	background-attachment: fixed;
 	background-size: contain;
 	height: 400px;
+}
+
+#case-study #user-research {
+	background: url(../img/uscis/research-map.png) 120px 220px no-repeat;
+	/* padding: 80px; */
+}
+#case-study #user-research .timeline:first-of-type .connector {
+    /* padding: 80px 0 120px; */
+} 
+#case-study #user-research h3 {
+	padding-top: 180px;
+}
+#case-study #user-research .content-2col {
+	columns: auto 2;
+	column-gap: 40px;
+	max-width: 600px;
+    padding-bottom: 120px;
+}
+#case-study #user-research .content-2col p {
+    font-size: 14px;
+	line-height: 20px;
 }
