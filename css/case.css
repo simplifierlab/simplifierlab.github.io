@@ -284,7 +284,7 @@
 	flex-direction: column;
 	/* min-height: 50vh; */
 	/* border: 1px solid #f00; */
-	background-color: var(--color-lighter-aqua);
+	/* background-color: var(--color-tertiary-gray-01); */
 }
 #case-study .key-findings h2 {
 	display: block;
@@ -296,27 +296,33 @@
 	/* font-weight: 600; */
 	/* border: 1px solid #f00; */
 }
+#case-study .key-findings .lede {
+	padding-bottom: 160px;
+}
 
 #case-study .key-findings section ul {
 	display: flex;
-	padding: 40px 0px 160px 0px;
+	padding: 0 0 40px 0;
 	align-items: flex-start;
 	gap: 24px;
 	/* align-self: stretch; */
 	list-style: none;
+	min-height: 280px;
 }
 #case-study .key-findings ul li {
 	list-style: none;
-	padding: 24px 32px;
-	background-color: var(--color-tertiary-gray-01);
+	/* padding: 24px 32px; */
+	/* background-color: var(--color-tertiary-gray-01); */
 	display: flex;
-	padding: 24px 32px var(--content-gap, 40px) 32px;
+	padding: 24px 0;
 	flex-direction: column;
-	align-items: flex-start;
+	/* align-items: flex-start; */
+	/* align-items: stretch; */
 	/* gap: 12px; */
 	flex: 1 0 0;
+	flex-grow: 1;
 	align-self: stretch;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 #case-study .key-findings ul li p {
@@ -324,19 +330,39 @@
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 150%; /* 21px */
-    margin-bottom: 12px;
+	margin-bottom: 12px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	margin-right: 40px;
+	/* align-items: flex-start; */
+	/* align-self: stretch; */
+	/* flex-grow: 1; */
+	/* gap: 10px; */
+	min-height: 120px;
+	border-right: 1px dashed var(--color-ink-lightest);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 }
-#case-study p.caption {
+#case-study .caption {
 	font-size: 12px !important;
 	font-weight: 400 !important;
 	margin: 0;
 	color: var(--color-ink-lighter);
 	line-height: 120%;
+	display: block;
+	padding: 12px 0;
+}
+#case-study .key-findings blockquote {
+	display: flex;
+	/* padding-right: 0px; */
+	flex-direction: column;
+	/* align-items: flex-start; */
+	align-self: stretch;
+	margin: 0;
 }
 #case-study .key-findings ul li img {
-	margin-top: 24px;
-    align-self: flex-end;
+	/* margin-top: 24px; */
+	align-self: flex-end;
+	flex-grow: 0;
 }
