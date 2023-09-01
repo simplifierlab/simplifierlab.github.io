@@ -5,7 +5,6 @@
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0;
-	/* border: 1px solid #00f; */
 }
 #case-study .container.wide {
 	max-width: calc(100% - 320px);
@@ -237,9 +236,16 @@
 	max-width: 100vw;
 }
 
-#case-study .proto-personas .container img {
-	width: 100vw;
+#case-study .img-cover img {
+	width: calc(100vw - 160px);
+	min-width: 960px;
 	object-fit: cover;
+}
+
+#case-study .proto-personas .container img  {
+	width: 100vw;
+	object-fit: contain;
+	/* border: 1px solid #f00; */
 }
 
 #case-study details > summary {
@@ -282,19 +288,12 @@
 }
 #case-study .key-findings {
 	flex-direction: column;
-	/* min-height: 50vh; */
-	/* border: 1px solid #f00; */
-	/* background-color: var(--color-tertiary-gray-01); */
+
 }
 #case-study .key-findings h2 {
 	display: block;
 	padding-top: 40px;
-	/* font-size: 52px !important; */
-	/* line-height: 50px; */
-	/* font-size: 27px !important; */
-	/* line-height: 100%; */
-	/* font-weight: 600; */
-	/* border: 1px solid #f00; */
+
 }
 #case-study .key-findings .lede {
 	padding-bottom: 160px;
@@ -365,4 +364,15 @@
 	/* margin-top: 24px; */
 	align-self: flex-end;
 	flex-grow: 0;
+}
+
+#case-study .design-sprint {
+	background: url(../img/uscis/eligibility-04.png) right 0 no-repeat;
+	background-size: contain;
+	padding-bottom: 80px;
+}
+
+#case-study .design-sprint > div {
+	padding: 120px 0;
+	/* margin-bottom: 80px; */
 }
