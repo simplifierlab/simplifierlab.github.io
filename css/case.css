@@ -366,13 +366,48 @@
 	flex-grow: 0;
 }
 
+#case-study #design-sprint article:first-of-type {
+	padding-bottom: 120px;
+}
+
 #case-study .design-sprint {
 	background: url(../img/uscis/eligibility-04.png) right 0 no-repeat;
 	background-size: contain;
-	padding-bottom: 80px;
+	padding-bottom: 160px;
 }
 
 #case-study .design-sprint > div {
-	padding: 120px 0;
+	padding: 160px 0;
 	/* margin-bottom: 80px; */
+}
+
+#case-study .uscis-sketches {
+	background: url(../img/uscis/uscis-sketches.png) center center no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#case-study .container.mobile-screens {
+	margin: 0 auto;
+}
+
+#case-study .mobile-screens ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+#case-study .mobile-screens li {
+	height: 80vh;
+	min-height: 480px;
+	/* border: 1px solid #f00; */
+		flex-grow: 1;
+	align-self: stretch;
+	justify-content: space-between;
+}
+#case-study .mobile-screens li img {
+	object-fit: contain;
+	height: inherit;
+	min-height: inherit;
+
 }
