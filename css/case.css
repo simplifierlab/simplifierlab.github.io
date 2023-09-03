@@ -112,7 +112,7 @@
 }
 
 #case-study .lede a:hover {
-	color: #ff3300;
+	color: var(--color-red-orange);
 }
 
 #case-study .lede a[href^='https://']

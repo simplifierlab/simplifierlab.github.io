@@ -13,22 +13,22 @@ body {
 	--color-ink-lighter: #637381;
 	--color-ink-lightest: #919eab;
 	/* --color-sky: #d4d9e0; */
-  --color-sky: #dfe3e8;
-  --color-tertiary-gray-01: #F7F9FD;
+	--color-sky: #dfe3e8;
+	--color-tertiary-gray-01: #f7f9fd;
 	--color-tertiary-gray-02: #eaf3f7;
 
-  --color-lighter-grey: #f7f7fe;
-  --color-light-grey: #F5F5F7;
-  --color-light-aqua: #cdebeb;
-  --color-lighter-aqua: #e6f5f5;
-  --color-light-yellow: #f9f9df;
-  --color-light-moss: #d3ded9;
-  /* --color-blush: #e5d9de; */
-  --color-blush: #F2ECEF;
+	--color-lighter-grey: #f7f7fe;
+	--color-light-grey: #f5f5f7;
+	--color-light-aqua: #cdebeb;
+	--color-lighter-aqua: #e6f5f5;
+	--color-light-yellow: #f9f9df;
+	--color-light-moss: #d3ded9;
+	/* --color-blush: #e5d9de; */
+	--color-blush: #f2ecef;
 
-  --color-red-orange: #ff0000;
+	--color-red-orange: #e31c40;
 
-/* 
+	/* 
   .color-light-aqua {
     background-color: #cdebeb;
   }
@@ -45,7 +45,6 @@ body {
     background-color: #e5d9de;
   } 
 */
-
 }
 
 nav {
@@ -84,9 +83,9 @@ p {
 }
 
 a {
-	color: #f30;
+	color: var(--color-red-orange);
 	text-decoration: none;
-	border-bottom: 0.05rem solid #f30;
+	border-bottom: 0.05rem solid var(--color-red-orange);
 }
 
 a:visited {
@@ -128,11 +127,11 @@ article.hero {
 }
 .hero p a {
 	/* color: #212B36; */
-	color: #000000;
+	color: var(--color-ink);
 	border: none;
 }
 .hero p a:hover {
-	color: #ff3300;
+	color: var(--color-red-orange);
 }
 
 .hero p sup {
@@ -154,8 +153,8 @@ article.hero p {
 }
 
 section.feature h2 {
-	font-family: 'Sora', 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto,
-		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-family: 'Sora', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 	/* font-family: 'Sora', 'Space Grotesk', system-ui,-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji','Segoe UI Emoji'; */
 	font-weight: 600;
 	font-size: 4.8rem;
@@ -176,7 +175,7 @@ nav {
 	display: block;
 	border-bottom: 1px solid #333333;
 	width: 100%;
-  z-index: 1 !important;
+	z-index: 1 !important;
 }
 nav a {
 	display: inline-block;
@@ -326,6 +325,25 @@ footer .social-btn .fa {
 	background-color: #ffffff;
 }
 
+.btn-link {
+	display: block;
+	/* font-size: 16px; */
+	padding-top: 12px;
+	margin: 0;
+	color: var(--color-ink);
+}
+.btn-link span {
+	display: block;
+	font-size: 13px;
+	line-height: 100%;
+	color: var(--color-ink-lighter);
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+.btn-link:hover span {
+	/* color: var(--color-ink); */
+}
+
 /* Colors */
 .color-light-grey {
 	background-color: #f7f7fe;
@@ -417,7 +435,7 @@ section.feature .listing p a[href^='https://']
 }
 
 section.feature .listing p a:hover {
-	border-color: #ff3300;
+	border-color: var(--color-red-orange);
 }
 
 section .listing code {
