@@ -242,7 +242,7 @@
 	object-fit: cover;
 }
 
-#case-study .proto-personas .container img  {
+#case-study .proto-personas .container img {
 	width: 100vw;
 	object-fit: contain;
 	/* border: 1px solid #f00; */
@@ -288,12 +288,10 @@
 }
 #case-study .key-findings {
 	flex-direction: column;
-
 }
 #case-study .key-findings h2 {
 	display: block;
 	padding-top: 40px;
-
 }
 #case-study .key-findings .lede {
 	padding-bottom: 160px;
@@ -396,18 +394,46 @@
 	list-style: none;
 	display: flex;
 	flex-direction: row;
+	padding: 160px 0 40px 0;
 }
 #case-study .mobile-screens li {
 	height: 80vh;
 	min-height: 480px;
-	/* border: 1px solid #f00; */
-		flex-grow: 1;
+	flex-grow: 1;
 	align-self: stretch;
 	justify-content: space-between;
+	position: relative;
+	padding-top: 24px;
 }
 #case-study .mobile-screens li img {
 	object-fit: contain;
 	height: inherit;
 	min-height: inherit;
+}
+#case-study .mobile-screens li aside {
+	position: absolute;
+	max-width: 200px;
+	border-left: 1px dashed var(--color-red-orange);
+	padding: 0 0 80px 24px;
+}
+#case-study .mobile-screens li aside p {
+	font-size: 12px;
+	line-height: 17px;
+	color: var(--color-ink);
+	/* font-family: 'Georgia', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
 
+#case-study .mobile-screens li:first-of-type aside {
+	/* padding: 0 0 80px 24px; */
+	top: -80px;
+	left: 80px;
+	/* border-left: 1px dashed var(--color-red-orange); */
+}
+#case-study .mobile-screens li:nth-of-type(2) aside {
+	top: -80px;
+	left: 80px;
+}
+#case-study .mobile-screens li:nth-of-type(3) aside {
+	top: -80px;
+	left: 80px;
 }
