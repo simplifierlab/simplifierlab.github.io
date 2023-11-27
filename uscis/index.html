@@ -1,146 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Simplifierlab | USCIS</title>
-		<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simplifierlab</title>
+				
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+		<link rel="manifest" href="favicon/site.webmanifest" />
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="stylesheet" type="text/css" href="../css/alliance.css" />
-		<link rel="stylesheet" type="text/css" href="../css/main.css" />
 		<link
-			href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400&display=swap"
 			rel="stylesheet"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
-			rel="stylesheet"
-		/>
-		<script src="https://use.fontawesome.com/b2463aafec.js"></script>
+		<link rel="stylesheet" href="../styles/base.css" />
+		<link rel="stylesheet" href="../styles/collection.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+		<script src="../scripts/main.js" defer></script>
 	</head>
-
 	<body>
-		<nav>
-			<a href="../index.html">Back</a>
-		</nav>
-
-		<!-- <div class="container-fluid color-light-grey">
-    <div class="container">
-      <nav>
-        <a href="../index.html" class="nav"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-      </nav>
-    </div>
-  </div> -->
-
-		<div class="container-fluid color-light-grey">
-			<div class="container hero">
-				<p>
-					I led the
-					<a href="https://18f.gsa.gov/what-we-deliver/myuscis/">18F team</a> in
-					partnership with the USCIS to apply human-centered design methods to
-					improve citizenship services. I introduced and led build-measure-learn
-					iteration sprints that helped us make course corrections on the
-					product roadmap.
-					<a href="casestudy/" class="btn-link"
-						>View the case study &rarr; <span>(Password-protected)</span></a
-					>
-				</p>
-			</div>
-		</div>
-
-		<div class="container-fluid color-light-grey">
-			<div class="container">
-				<div class="caption">
-					<h3>USCIS</h3>
-
-					<p>
-						Role: Engagement Lead (strategy, UX research, product design,
-						stakeholder management)
+		<div class="container-fluid">
+			<nav>
+				<div class="subnav">
+					<p><a href="/">&larr; Back</a></p>
+					<p class="logo">
+						<a href="/">Simplifierlab <span>&sol;</span></a>
 					</p>
 				</div>
-				<section class="one-column-full color-light-aqua">
-					<img src="../img/uscis/ISO-dashboard.png" alt="ISO dashboard" />
-				</section>
-				<section class="one-column">
-					<img
-						src="../img/uscis/user-status-mid-apply.png"
-						alt="applicant status mid-application"
-					/>
-				</section>
-				<section class="one-column-full color-light-yellow">
-					<img
-						src="../img/uscis/user-profile-mbp.png"
-						alt="applicant profile"
-					/>
-				</section>
-				<section class="one-column">
-					<!-- <img src="../img/uscis/01-user status — jane.png" alt="applicant status mid-application" /> -->
-					<img src="../img/uscis/02-messages.png" alt="applicant messages" />
-					<!-- <img src="../img/uscis/03-user profile.png" alt="applicant user profile" /> -->
-					<!-- <img src="../img/uscis/04-documents.png" alt="applicant documents" /> -->
-				</section>
-
-				<section class="one-column">
-					<img
-						src="../img/uscis/uscis-n400-start.png"
-						alt="USCIS N400 screen"
-					/>
-					<img src="../img/uscis/uscis-n400.png" alt="USCIS N400 screen" />
-					<img
-						src="../img/uscis/USCIS-basis-for-eligibility.png"
-						alt="USCIS N400 screen"
-					/>
-				</section>
-
-				<section class="one-column">
-					<img src="../img/uscis/IA.png" alt="USCIS information architecture" />
-				</section>
-				<section class="three-column justify">
-					<div class="col">
-						<img
-							src="../img/uscis/evidence-checklist-1.png"
-							alt="USCIS wireframe"
-						/>
+			</nav>
+			<div class="container">
+				<main
+					class="hero colorbox"
+					class="aos-init aos-animate"
+					data-aos="fade-in"
+					data-aos-delay="600"
+					data-color="#F9FAF8"
+				>
+					<h2>USCIS</h2>
+					<p class="lede">
+						Applying human-centered design methods to reinvent the path to
+						becoming a U.S. citizen
+					</p>
+				</main>
+				<section
+					class="collection"
+					class="aos-init aos-animate"
+					data-aos="fade-in"
+					data-aos-delay="800"
+				>
+					<article
+						class="aos-init aos-animate"
+						data-aos="fade-in"
+						data-aos-delay="200"
+					>
+						<h3 class="bar-top">Overview</h3>
+						<p class="caption">
+							I led the 18F team&rsquo;s effort to apply human-centered design
+							to improve citizenship services. I introduced lean principles and
+							conducted continuous research sprints to deliver product value to
+							key target users.
+						</p>
+					</article>
+					<div class="full-bleed">
+						<img src="../img/uscis/research-session-crop.png" alt="" />
 					</div>
-					<div class="col">
-						<img
-							src="../img/uscis/evidence-checklist-2.png"
-							alt="USCIS wireframe"
-						/>
+					<div class="gallery bg-sky">
+						<img src="../img/uscis/ISO-dashboard.png" alt="USCIS dashboard" />
 					</div>
-					<div class="col">
-						<img
-							src="../img/uscis/evidence-checklist-3.png"
-							alt="USCIS wireframe"
-						/>
+					<div class="gallery">
+						<img src="../img/uscis/proto-personas.png" alt="proto personas" />
 					</div>
 				</section>
 			</div>
 		</div>
-
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=UA-51931-1"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-51931-1');
-		</script>
 	</body>
 </html>
