@@ -164,6 +164,6 @@ a[href^='https://']::after {
 	padding-left: 2px;
 	background-size: 12px auto;
 }
-.container .hero .lede a:visited {
+/* .container .hero .lede a:visited {
 	color: var(--color-poppy-800);
-}
+} */
