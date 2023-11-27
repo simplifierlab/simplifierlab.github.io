@@ -62,6 +62,9 @@
 .container .collection article .caption a:hover {
 	color: var(--color-red);
 }
+.container .collection article .caption a:visited {
+	color: var(--color-poppy-800);
+}
 .collection .gallery {
 	padding: 80px;
 }
