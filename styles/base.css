@@ -114,11 +114,11 @@ nav p a span {
 	align-items: flex-start; */
 	display: grid;
 	grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
-	padding: 160px 28px 40px 28px;
+	padding: 160px 28px 0 28px;
 }
 .container section.hero {
 	padding-top: 240px;
-	padding-bottom: 80px;
+	/* padding-bottom: 80px; */
 }
 .container .hero h2 {
 	grid-column-start: 2;
@@ -164,6 +164,14 @@ a[href^='https://']::after {
 	padding-left: 2px;
 	background-size: 12px auto;
 }
+.caption a[href^='casestudy/']::after {
+	background: url('../img/icons/icon-lock.svg') right center no-repeat;
+	background-size: 16px auto;
+	padding-left: 8px;
+	padding-right: 12px;
+	content: '';
+}
+
 /* .container .hero .lede a:visited {
 	color: var(--color-poppy-800);
 } */
