@@ -163,6 +163,9 @@ a[href^='https://']::after
 	padding-right: 12px;
 	content: '';
 }
+a[href^='https://twitter'] {
+	white-space: nowrap;
+}
 .caption a[href^='https://']::after
 {
 	padding-left: 2px;
