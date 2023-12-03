@@ -188,6 +188,10 @@ a[href^='https://twitter']
 		display: grid;
 		grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
 	}
+	nav .main-nav p:first-of-type {
+		grid-column-start: 2;
+		display: grid;
+	}
 	nav p:first-of-type {
 		grid-column-start: 1;
 		display: grid;
