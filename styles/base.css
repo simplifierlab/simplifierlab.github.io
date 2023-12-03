@@ -79,8 +79,9 @@ nav {
 }
 nav .subnav,
 nav .main-nav {
-	display: grid;
-	grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
+	/* display: grid; */
+	/* grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end]; */
+	display: block;
 }
 nav p a {
 	font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
@@ -91,7 +92,8 @@ nav p a {
 	text-decoration: none;
 }
 nav p:first-of-type {
-	grid-column-start: 1;
+	/* grid-column-start: 1; */
+	display: none;
 }
 nav p.logo {
 	grid-column-start: 2;
@@ -109,16 +111,14 @@ nav p a span {
 	padding: 0 0 15rem 0;
 }
 .container .hero {
-	/* display: flex;
-	width: 640px;
-	align-items: flex-start; */
-	display: grid;
-	grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
-	padding: 160px 28px 0 28px;
+	/* display: grid; */
+	display: block;
+	/* grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end]; */
+	padding: 160px 28px 80px 28px;
 }
 .container section.hero {
 	padding-top: 240px;
-	/* padding-bottom: 80px; */
+	padding-bottom: 80px;
 }
 .container .hero h2 {
 	grid-column-start: 2;
@@ -131,8 +131,7 @@ nav p a span {
 	letter-spacing: -0.02em;
 }
 .container .hero .lede {
-	grid-column-start: 2;
-	/* grid-column-end: span col-2; */
+	/* grid-column-start: 2; */
 	color: var(--color-ink-lightest);
 	font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
@@ -140,7 +139,6 @@ nav p a span {
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 48px;
-	/* letter-spacing: -1px; */
 	letter-spacing: -0.02em;
 }
 .container .hero .lede a {
@@ -163,7 +161,8 @@ a[href^='https://']::after
 	padding-right: 12px;
 	content: '';
 }
-a[href^='https://twitter'] {
+a[href^='https://twitter']
+{
 	white-space: nowrap;
 }
 .caption a[href^='https://']::after
@@ -182,3 +181,32 @@ a[href^='https://twitter'] {
 /* .container .hero .lede a:visited {
 	color: var(--color-poppy-800);
 } */
+
+@media screen and (min-width: 800px) {
+	nav .subnav,
+	nav .main-nav {
+		display: grid;
+		grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
+	}
+	nav p:first-of-type {
+		grid-column-start: 1;
+	}
+	.container .hero {
+		display: grid;
+		grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
+		padding: 160px 28px 80px 28px;
+	}
+	.container .hero .lede {
+		grid-column-start: 2;
+		/* color: var(--color-ink-lightest); */
+		/* font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
+			'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+			'Helvetica Neue', sans-serif; */
+		/* font-size: 40px; */
+		/* font-weight: 700; */
+		/* line-height: 48px; */
+		/* letter-spacing: -0.02em; */
+	}
+}
+@media screen and (min-width: 800px) {
+}

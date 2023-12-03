@@ -139,3 +139,7 @@
 .collection .gallery-grid img {
 	max-width: 320px;
 }
+
+@media screen and (min-width: 800px) {
+	
+}
