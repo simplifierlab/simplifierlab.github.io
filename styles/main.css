@@ -35,7 +35,7 @@ main.hero {
 
 .container .featured {
 	display: flex;
-	padding: 120px 28px 0 28px;
+	padding: 80px 28px 0 28px;
 	gap: 24px 0;
 	flex-wrap: wrap;
 }
@@ -79,23 +79,13 @@ main.hero {
 	font-size: 24px;
 	line-height: 28px;
 }
-.container .featured article.wide .thumbnail {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	/* align-items: flex-start; */
-	align-self: stretch;
-}
+
 .container .featured article .thumbnail img {
 	/* width: calc(33.33vw - 20px); */
 	width: 100%;
 	object-fit: cover;
 }
-.container .featured article.wide .thumbnail img {
-	/* width: calc(66.67vw - 40px); */
-	width: 100%;
-	object-fit: cover;
-}
+
 
 .container .featured article .caption {
 	display: flex;
@@ -128,7 +118,7 @@ main.hero {
 @media screen and (min-width: 800px) {
 	.container .featured {
 		/* display: flex; */
-		padding: 120px 28px 80px 28px;
+		padding: 40px 28px 40px 28px;
 		/* gap: 24px 0; */
 		/* flex-wrap: wrap; */
 	}

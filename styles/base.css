@@ -91,7 +91,7 @@ nav p a {
 	display: block;
 	text-decoration: none;
 }
-nav p:first-of-type {
+nav .subnav p:first-of-type {
 	/* grid-column-start: 1; */
 	display: none;
 }
