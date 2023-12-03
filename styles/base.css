@@ -190,6 +190,7 @@ a[href^='https://twitter']
 	}
 	nav p:first-of-type {
 		grid-column-start: 1;
+		display: grid;
 	}
 	.container .hero {
 		display: grid;
