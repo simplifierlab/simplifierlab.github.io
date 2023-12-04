@@ -192,6 +192,10 @@ a[href^='https://twitter']
 		grid-column-start: 2;
 		display: grid;
 	}
+	nav .subnav p:first-of-type {
+		grid-column-start: 1;
+		display: grid;
+	}
 	nav p:first-of-type {
 		grid-column-start: 1;
 		display: grid;
