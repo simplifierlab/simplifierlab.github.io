@@ -36,7 +36,7 @@ main.hero {
 .container .featured {
 	display: flex;
 	padding: 80px 28px 0 28px;
-	gap: 24px 0;
+	gap: 24px 12px;
 	flex-wrap: wrap;
 }
 .container .featured article {
@@ -46,7 +46,7 @@ main.hero {
 	flex-direction: column;
 	gap: 24px;
 	flex-shrink: 1;
-	border-left: 1px dotted var(--color-sky-dark);
+	/* border-left: 1px dotted var(--color-sky-dark); */
 }
 
 .container .featured article.blank {
@@ -86,10 +86,9 @@ main.hero {
 	object-fit: cover;
 }
 
-
 .container .featured article .caption {
 	display: flex;
-	padding-left: 16px;
+	padding-left: 24px;
 	padding-right: 40px;
 	flex-direction: column;
 	/* justify-content: center; */
@@ -114,6 +113,15 @@ main.hero {
 .container .featured article .caption a:hover {
 	color: var(--color-ink);
 }
+.container .featured article .caption .title {
+	color: var(--color-ink);
+	font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px; /* 114.286% */
+	display: block;
+	padding-bottom: 12px;
+}
 
 @media screen and (min-width: 800px) {
 	.container .featured {
@@ -123,28 +131,43 @@ main.hero {
 		/* flex-wrap: wrap; */
 	}
 	.container .featured article .caption {
-		font-size: 20px;
-		line-height: 28px; /* 140% */
+		font-size: 14px;
+		line-height: 20px; /* 140% */
+		max-width: 320px;
+		padding-right: 24px;
+	}
+	.container .featured article.narrow .caption {
+		padding-left: 0;
 	}
 	.container .featured article {
 		/* display: flex; */
-		width: calc(33.33vw - 20px);
+		width: calc(30vw - 36px);
+		padding-top: 80px;
+
 		/* flex-direction: column; */
 		/* gap: 24px; */
 		/* flex-shrink: 1; */
-		border-left: 1px dotted var(--color-sky-dark);
+		/* border-left: 1px dotted var(--color-sky-dark); */
+	}
+	.container .featured article.narrow {
+		width: calc(20vw - 36px);
+		padding-top: 0;
 	}
 	.container .featured article.blank {
-		width: calc(33.33vw - 20px);
+		width: calc(30vw - 36px);
 		border: none;
 		display: flex;
 	}
 	.container .featured article .thumbnail img {
-		width: calc(33.33vw - 20px);
+		width: calc(30vw - 36px);
 		/* object-fit: cover; */
 	}
 	.container .featured article.wide .thumbnail img {
-		width: calc(66.67vw - 40px);
+		width: calc(66.67vw - 36px);
+		/* object-fit: cover; */
+	}
+	.container .featured article.narrow .thumbnail img {
+		width: calc(20vw - 36px);
 		/* object-fit: cover; */
 	}
 }

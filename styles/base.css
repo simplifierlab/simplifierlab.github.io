@@ -186,7 +186,7 @@ a[href^='https://twitter']
 	nav .subnav,
 	nav .main-nav {
 		display: grid;
-		grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
+		grid-template-columns: [col-1] 30% [col-2] 60% [col-end] 10% [end];
 	}
 	nav .main-nav p:first-of-type {
 		grid-column-start: 2;
@@ -202,7 +202,7 @@ a[href^='https://twitter']
 	}
 	.container .hero {
 		display: grid;
-		grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
+		grid-template-columns: [col-1] 30% [col-2] 60% [col-end] 10% [end];
 		padding: 160px 28px 80px 28px;
 	}
 	.container .hero .lede {
