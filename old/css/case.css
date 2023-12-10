@@ -156,7 +156,7 @@
 	letter-spacing: -0.015em;
 }
 
-#case-study article {
+#case-study figure {
 	/* border: 1px solid #f00; */
 	width: 100%;
 }
@@ -373,7 +373,7 @@
 	flex-grow: 0;
 }
 
-#case-study #design-sprint article:first-of-type {
+#case-study #design-sprint figure:first-of-type {
 	padding-bottom: 120px;
 }
 
