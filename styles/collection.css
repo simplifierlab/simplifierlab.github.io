@@ -16,6 +16,13 @@
 	min-height: 250px;
 	max-height: 400px;
 }
+.container .collection .scroll-h.tall {
+	padding: 40px 28px;
+}
+.container .collection .scroll-h.tall img {
+	/* min-height: 250px; */
+	max-height: 800px;
+}
 .container .collection article {
 	display: grid;
 	grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
