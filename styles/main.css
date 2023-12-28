@@ -167,7 +167,18 @@ main.hero {
 	font-weight: 400;
 	line-height: 24px; /* 150% */
 	letter-spacing: 0.32px;
-	padding-bottom: 24px;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	position: relative;
+}
+.exhibit figcaption > p:first-of-type::after {
+	content: '';
+	background-color: var(--color-sky-dark);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 40px;
 }
 
 .exhibit figcaption h3 {
@@ -177,12 +188,12 @@ main.hero {
 	font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
-	font-size: 34px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 44px; /* 129.412% */
 	/* width: 100%; */
-	padding-bottom: 8px;
+	/* padding-bottom: 8px; */
 }
 .exhibit figcaption h3 a {
 	text-decoration: none;
@@ -195,12 +206,12 @@ main.hero {
 	font-family: 'Roboto Serif', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 28px; /* 140% */
+	line-height: 160%;
 	width: 100%;
-	max-width: 380px;
+	max-width: 320px;
 	text-decoration: none;
 	letter-spacing: -0.01em;
 	/* padding-right: 24px; */
@@ -214,6 +225,7 @@ main.hero {
 .exhibit img:hover {
 	/* opacity: .85; */
 	filter: opacity(85%) saturate(1.5);
+	cursor: pointer;
 	/* background-color: var(--color-yellow-200); */
 	/* mix-blend-mode: multiply; */
 }
