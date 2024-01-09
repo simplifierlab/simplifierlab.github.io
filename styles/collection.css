@@ -48,11 +48,13 @@
 	top: -80px;
 	left: 0;
 }
+.caption,
 .container .collection article .caption,
 .container .collection article .details {
 	grid-column-start: 2;
 	max-width: 600px;
 }
+.caption, 
 .container .collection article .caption,
 .container .collection article .details .detail-item p {
 	color: var(--color-ink-lighter);
@@ -62,6 +64,7 @@
 	line-height: 24px; /* 140% */
 	margin-bottom: 12px;
 }
+.caption a,
 .container .collection article .caption a {
 	font-family: 'Roboto Serif';
 	color: var(--color-ink);
@@ -69,12 +72,14 @@
 	font-weight: 500;
 	border-bottom: 1px dotted var(--color-sky-dark);
 }
+.caption a:hover,
 .container .collection article .caption a:hover {
 	color: var(--color-red);
 }
 /* .container .collection article .caption a:visited {
 	color: var(--color-poppy-800);
 } */
+.caption a.btn,
 .container .collection article .caption a.btn {
 	border: none;
 	font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
@@ -87,6 +92,7 @@
 	border: 1px solid var(--color-ink-lighter);
 	border-radius: 3px;
 }
+.caption a.btn:hover,
 .container .collection article .caption a.btn:hover {
 	color: var(--color-ink);
 	border: 1px solid var(--color-ink);

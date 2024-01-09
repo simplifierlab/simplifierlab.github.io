@@ -10,10 +10,19 @@
 	letter-spacing: 0.0325em;
 	text-transform: uppercase;
 	grid-column-start: 2;
-    padding-top: 24px;
+	padding-top: 160px;
 	padding-bottom: 16px;
 }
-.eyebrow {
+h2 + .eyebrow {
+    	padding-top: 24px;
+}
+
+.hero .lede {
+	padding-bottom: 32px;
+}
+
+.hero .eyebrow:not(:first-of-type) {
+    padding-top: 160px;
 }
 
 @media screen and (min-width: 800px) {
