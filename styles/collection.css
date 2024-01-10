@@ -8,6 +8,9 @@
 	object-fit: cover;
 	width: 100%;
 }
+.container .collection .scroll-v {
+	overflow-x: scroll;
+}
 .container .collection .scroll-h {
 	overflow-y: scroll;
 	padding: 24px 28px;
@@ -23,6 +26,13 @@
 	/* min-height: 250px; */
 	max-height: 800px;
 }
+
+.container .collection .scroll {
+	overflow: scroll;
+	height: 480px;
+	/* border: 1px solid #f00; */
+}
+
 .container .collection article {
 	display: grid;
 	grid-template-columns: [col-1] 33.33% [col-2] 58.33% [col-end] 8.33% [end];
