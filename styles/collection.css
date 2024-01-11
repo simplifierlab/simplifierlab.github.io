@@ -58,6 +58,12 @@
 	top: -80px;
 	left: 0;
 }
+/* .container .collection .full-bleed + article {
+	border: 1px solid #f00;
+} */
+.container .collection .full-bleed + article h3.bar-top::before {
+	top: -72px;
+}
 .caption,
 .container .collection article .caption,
 .container .collection article .details {
