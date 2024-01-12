@@ -175,7 +175,9 @@ a[href^='https://twitter']
 	padding-left: 2px;
 	background-size: 12px auto;
 }
-.caption a[href^='casestudy/']::after {
+.caption a[href^='casestudy/']::after,
+a[href^='b2b/']::after
+ {
 	background: url('../img/icons/icon-lock.svg') right center no-repeat;
 	background-size: 16px auto;
 	padding-left: 8px;
