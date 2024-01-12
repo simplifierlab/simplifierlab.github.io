@@ -141,6 +141,10 @@ main.hero {
 	/* width: 66vw; */
 	width: 100vw;
 }
+.exhibit figure > a {
+	display: block;
+}
+
 .exhibit figure img {
 	/* width: 33vw; */
 	width: 100vw;
