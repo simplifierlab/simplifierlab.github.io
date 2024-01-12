@@ -81,15 +81,24 @@
 .container .collection article .caption,
 .container .collection article .details .detail-item p {
 	color: var(--color-ink-lighter);
-	font-family: 'Roboto Serif';
+	font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px; /* 140% */
 	margin-bottom: 12px;
+	font-variant-numeric: oldstyle-nums tabular-nums;
+	font-feature-settings: 'ss03' on, 'ss05' on;
+}
+.caption i,
+.container .collection article .caption i,
+.container .collection article .details .detail-item p i {
+	font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
+	font-variant-numeric: oldstyle-nums tabular-nums;
+	font-feature-settings: 'ss03' on, 'ss05' on;
 }
 .caption a,
 .container .collection article .caption a {
-	font-family: 'Roboto Serif';
+	font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
 	color: var(--color-ink);
 	text-decoration: none;
 	font-weight: 500;
