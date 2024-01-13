@@ -118,6 +118,7 @@
 						data-aos-delay="200"
 					>
 						<h3 class="bar-top">Big challenges, <br />short timeframe</h3>
+
 						<p class="caption">
 							Role-based permissions are foundational to how GitHub works.
 							Changing the permissions model not only has widespread
@@ -131,14 +132,28 @@
 								alt="icons depicting GitHub, Enterprise, API, and ecosystem"
 							/>
 						</figure>
+
 						<p class="caption">
-							And offering fine-grained discretionary control for every feature,
+							Offering fine-grained discretionary control for every feature,
 							every action within a feature, for every user in their
 							organization would create an unwieldy n! combinatorial
 							possibilities that would be impossible for admins to manage —
 							especially given the scale of their organizations. Not to mention
 							that this would also create tremendous backend and UI complexity
 							for us.
+						</p>
+						<h4 class="eyebrow">Timeframe</h4>
+						<p class="caption">
+							Since one of our major events,
+							<a
+								href="https://githubsatellite.com/2019/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>GitHub Satellite</a
+							>, was coming up in 4 months, we opportunistically targeted
+							shipping a beta release of fine-grained permissions by then to
+							take advantage of the large gathering of GitHub customers and the
+							amplified marketing push for the event.
 						</p>
 					</article>
 					<!-- <div class="gallery bg-sky">
@@ -182,10 +197,20 @@
 						<p class="caption">
 							We determined that at the root of the customer problem was
 							security, i.e., enabling users in an organization to have just
-							enough permissions to do what they&rsquo;re authorized to do
-							&mdash; no more and no less. Addressing the biggest security pain
-							points defined our North Star &mdash; not contract value or number
-							of requests.
+							enough permissions to do their job &mdash; no more and no less.
+							Addressing the biggest security pain points defined our North Star
+							&mdash; not contract value or number of requests.
+						</p>
+
+						<p class="caption">
+							We identified a few themes and converged on two (we called them
+							<code>Read +</code> and <code>Write +</code>) on either side of
+							the permissions spectrum (see fig. 1) to offer broader end-to-end
+							coverage.
+
+							<!-- I mapped data from our interviews and created
+							provisional personas to help us understand and empathize with
+							whose needs admins need to satisfy with sufficient access. -->
 						</p>
 						<figure class="caption figure-inline">
 							<figcaption>
@@ -196,23 +221,17 @@
 								alt="diagram of permissions concept model"
 							/>
 						</figure>
-						<p class="caption">
-							After analyzing notes and mapping a few themes, we decided to
-							pursue two &mdash; we referred to them as &ldquo;Read plus&rdquo;
-							and &ldquo;Write plus&rdquo; &mdash; on both sides of the
-							&ldquo;permissions spectrum&rdquo; (see fig. 1) to help provide
-							balanced end-to-end coverage.
-						</p>
 					</article>
+
 					<!-- <div class="full-bleed">
 						<img
-							src="../img/b2b/fgp-ask-github.png"
-							alt="Ask GitHub at GitHub Satellite"
+							src="../img/b2b/fgp-beta.png"
+							alt="beta iteration"
 						/>
 					</div> -->
-					<!-- <div class="gallery bg-sky">
-						<img src="../img/mvp/hackedu/he-montage.png" alt="" />
-					</div> -->
+					<div class="gallery bg-sky">
+						<img src="../img/b2b/fgp-beta.png" alt="beta" />
+					</div>
 					<!-- <div
 						class="gallery"
 						class="aos-init aos-animate"
@@ -236,8 +255,59 @@
 						data-aos="fade-in"
 						data-aos-delay="400"
 					>
-						<h3 class="bar-top">Design iterations</h3>
-						<!-- <p class="caption"></p> -->
+						<h3 class="bar-top">Iterative design</h3>
+						<p class="caption">
+							For the next 3&ndash;4 weeks, we conducted iterative design
+							sprints where I&rsquo;d put together a mockup (or two), write a
+							quick research plan outlining the things we want to learn, conduct
+							5&ndash;7 research sessions, then use learnings from those
+							sessions to inform the next iteration round. A sprint typically
+							spanned 3&ndash;5 days.
+						</p>
+						<p class="caption">
+							Our design system,
+							<a
+								href="https://primer.style"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Primer</a
+							>
+							, enabled me to create mockups quickly and even prototype in code.
+							It&rsquo;s well-documented, has practical CSS utilities, and rich
+							component and style libraries for Figma, React, and Rails.
+						</p>
+						<h4 class="eyebrow">Design iteration highlights</h4>
+						<p class="caption">
+							The first few iterations (N° 1&ndash;9) were more divergent,
+							intended to help us explore directions while testing our riskiest
+							assumptions about the concept model:
+						</p>
+						<ul class="caption">
+							<li>
+								What is their mental model for assigning permissions? Can we
+								convey the idea of assigning permissions in a more elegant way
+								than the
+								<code>chmod</code>-like checkboxes?
+							</li>
+							<li>
+								Does the feature provide value? Is this immediately applicable
+								to someone in their org (or outside)?
+							</li>
+						</ul>
+						<p class="caption">
+							By iteration N° 10, we converged toward using verbs
+							&ldquo;Triage&rdquo; and &ldquo;Maintain&rdquo; instead of
+							<code>Read +</code> and <code>Write +</code> to describe the new
+							permission types. Verbs made it easier for users to infer what
+							additional permissions were associated with it. Iteration N° 12
+							(above) was shipped as the beta version officially released at
+							GitHub Satellite. Iteration N° 13 starts to lay the groundwork for
+							custom permissions.
+						</p>
+						<p class="caption">
+							Scroll through the graphic below to view a chronicle of the design
+							iterations.
+						</p>
 					</article>
 					<div
 						class="scroll"
@@ -245,7 +315,9 @@
 						data-aos="fade-in"
 						data-aos-delay="400"
 					>
-						<img src="../img/b2b/fgp-iterations.png" alt="" />
+						<figure>
+							<img src="../img/b2b/fgp-iterations.png" alt="" />
+						</figure>
 					</div>
 				</section>
 			</div>
