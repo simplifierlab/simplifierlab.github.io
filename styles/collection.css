@@ -29,7 +29,7 @@
 
 .container .collection .scroll {
 	overflow: scroll;
-	height: 480px;
+	height: 440px;
 	/* border: 1px solid #f00; */
 }
 
@@ -260,7 +260,8 @@ article .eyebrow {
 }
 article code,
 article pre {
-	font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+	font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
+		'Liberation Mono', monospace;
 	font-size: 90%;
 }
 article code {
@@ -271,5 +272,8 @@ article code {
 	font-feature-settings: 'cv08' on, 'ss06' on;
 }
 
+/* Custom styles */
+
 @media screen and (min-width: 800px) {
+
 }
