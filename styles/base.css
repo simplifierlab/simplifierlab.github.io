@@ -41,8 +41,11 @@
 	--color-blue-500: #004e8a; /* toyo 0408 */
 	--color-blue-600: #0074cc;
 	--color-blue-700: #005799;
+	--color-blue-900: #001429;
 
 	--color-teal-lighter: #e0f5f5;
+
+	--color-mint: #EAF3F7;
 
 	--color-red: #e31c40;
 }

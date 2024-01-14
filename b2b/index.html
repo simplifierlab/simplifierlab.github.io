@@ -189,10 +189,14 @@
 						data-aos-delay="200"
 					>
 						<h3 class="bar-top">Product strategy</h3>
+
 						<p class="caption">
 							Working closely with the PM, we interviewed admins from large
 							organizations (enterprise and open-source) and trawled through
-							100+ customer feedback tickets.
+							100+ customer feedback tickets. We knew that we wouldn&rsquo;t be
+							able to ship a solution to a highly-complex problem in 4 months so
+							we needed to figure out what to ship first to address the problem
+							and lay out a vision for incremental improvements over time.
 						</p>
 						<p class="caption">
 							We determined that at the root of the customer problem was
@@ -202,11 +206,14 @@
 							&mdash; not contract value or number of requests.
 						</p>
 
+						<h4 class="eyebrow">What to ship initially</h4>
+
 						<p class="caption">
 							We identified a few themes and converged on two (we called them
-							<code>Read +</code> and <code>Write +</code>) on either side of
-							the permissions spectrum (see fig. 1) to offer broader end-to-end
-							coverage.
+							<code>Read +</code> and <code>Write +</code>) on both ends of the
+							permissions spectrum (see fig. 1) to offer balanced end-to-end
+							coverage and help address overly-permissive access
+							controls that admins have pointed out in a number of cases.
 
 							<!-- I mapped data from our interviews and created
 							provisional personas to help us understand and empathize with
@@ -247,16 +254,37 @@
 					data-aos="fade-in"
 					data-aos-delay="200"
 				>
-					<div class="gallery bg-sky">
+					<!-- <div class="gallery bg-sky">
 						<img src="../img/b2b/fgp-beta.png" alt="beta" />
-					</div>
+					</div> -->
 
-					<article
+					<div
+						class="scroll bg-blue-dark"
 						class="aos-init aos-animate"
 						data-aos="fade-in"
 						data-aos-delay="400"
 					>
-						<h3 class="bar-top">Iterative design</h3>
+						<figure>
+							<img src="../img/b2b/fgp-iterations.png" alt="" />
+						</figure>
+					</div>
+
+					<article
+						id="iterations"
+						class="aos-init aos-animate"
+						data-aos="fade-in"
+						data-aos-delay="400"
+					>
+						<h3 class="">Iterative design</h3>
+
+						<figure id="fpg-iterations" class="caption figure-inline">
+							<figcaption>
+								<span>fig. 2</span>UI design iterations 1&ndash;13
+							</figcaption>
+						</figure>
+
+						<h4 class="eyebrow">Design sprints</h4>
+
 						<p class="caption">
 							For the next 6 weeks, we conducted iterative design sprints where
 							I&rsquo;d put together a mockup (or two), write a quick research
@@ -265,25 +293,24 @@
 							sessions to inform the next iteration round. A sprint typically
 							spanned 5&ndash;7 days.
 						</p>
+						<h4 class="eyebrow">Working with our design system</h4>
+
 						<p class="caption">
-							Our design system,
+							Using our design system,
 							<a
 								href="https://primer.style"
 								target="_blank"
 								rel="noopener noreferrer"
 								>Primer</a
 							>
-							, enabled me to create mockups quickly and even prototype in code.
+							, I was able to create mockups quickly and even prototype in code.
 							It&rsquo;s well-documented, has practical CSS utilities, and rich
 							component and style libraries for Figma, React, and Rails.
 						</p>
 						<h4 class="eyebrow">Design iteration highlights</h4>
 						<p class="caption">
-							See the graphic below to view and scroll through a chronicle of the design iterations.
-						</p>
-						<p class="caption">
-							The first few iterations (N° 1&ndash;9) were more divergent,
-							intended to help us explore directions while testing our riskiest
+							Iteration N° 1&ndash;9 (see fig. 2) were more divergent, intended
+							to help us explore directions while testing our riskiest
 							assumptions about the concept model:
 						</p>
 						<ul class="caption">
@@ -304,18 +331,19 @@
 							<code>Read +</code> and <code>Write +</code> to describe the new
 							permission roles. Verbs made it easier for users to infer what
 							additional permissions were associated with it. Iteration N° 12
-							(above) was shipped as the
+							(below) was released as the beta version
 							<a
 								href="https://github.blog/changelog/2019-05-23-triage-and-maintain-roles-beta/"
 								target="_blank"
 								rel="noopener noreferrer"
-								>beta version officially announced</a
+								>officially announced</a
 							>
-							at GitHub Satellite. Iteration N° 13 starts to lay the groundwork
-							for custom permissions.
+							at GitHub Satellite. With iteration N° 13, I begin to lay the
+							groundwork for the next version: custom permissions.
 						</p>
 					</article>
-					<div
+
+					<!-- <div
 						class="scroll"
 						class="aos-init aos-animate"
 						data-aos="fade-in"
@@ -324,6 +352,10 @@
 						<figure>
 							<img src="../img/b2b/fgp-iterations.png" alt="" />
 						</figure>
+					</div> -->
+
+					<div class="gallery bg-sky">
+						<img src="../img/b2b/fgp-beta.png" alt="beta" />
 					</div>
 				</section>
 			</div>
