@@ -141,6 +141,8 @@
 							/>
 						</figure>
 
+						<h4 class="eyebrow">Scale</h4>
+
 						<p class="caption">
 							Offering fine-grained discretionary control for every feature,
 							every action within a feature, for every user in their
@@ -158,10 +160,10 @@
 								target="_blank"
 								rel="noopener noreferrer"
 								>GitHub Satellite</a
-							>, was coming up in 4 months, we opportunistically targeted
-							shipping a beta release of fine-grained permissions by then to
-							take advantage of the large gathering of GitHub customers and the
-							amplified marketing push for the event.
+							>, was coming up in 4 months, we opportunistically set that as the
+							target date for our first beta to take advantage of the large
+							gathering of GitHub customers and the amplified marketing push for
+							the event.
 						</p>
 					</article>
 					<!-- <div class="gallery bg-sky">
@@ -199,12 +201,13 @@
 						<h3 class="bar-top">Product strategy</h3>
 
 						<p class="caption">
-							Working closely with the PM, we interviewed admins from large
+							Working closely with the PM, we interviewed admins of large GitHub
 							organizations (enterprise and open-source) and trawled through
 							100+ customer feedback tickets. We knew that we wouldn&rsquo;t be
-							able to ship a solution to a highly-complex problem in 4 months so
-							we needed to figure out what to ship first to address the problem
-							and lay out a vision for incremental improvements over time.
+							able to ship a complete solution for a highly-complex problem in 4
+							months so we needed to figure out what to ship first to remedy 80%
+							of the problem and lay out a vision for incremental improvements
+							over time.
 						</p>
 						<p class="caption">
 							We determined that at the root of the customer problem was
@@ -214,19 +217,28 @@
 							&mdash; not contract value or number of requests.
 						</p>
 
+						<h4 class="eyebrow">Mapping access needs to shape user personas</h4>
+						<p class="caption">
+							I cleaned up and mapped data from our interviews which I then used
+							to create provisional personas. I applied the jobs-to-done
+							framework to translate their needs into discrete, sufficient
+							permissions needed in order for them to be effective. Not only did
+							these personas help us visualize permission levels that underlie
+							each request, they allowed us to have deeper empathy for their
+							motivations.
+						</p>
+
 						<h4 class="eyebrow">What to build first</h4>
 
 						<p class="caption">
-							We identified a few themes and converged on two (we called them
+							We identified a few themes emerge from data mapping and settled on
+							two (internally, we referred to them as
 							<code>Read +</code> and <code>Write +</code>) on both ends of the
-							permissions spectrum (see fig. 1) to offer balanced end-to-end
+							permissions spectrum (see fig. 1) to offer better end-to-end
 							coverage and help address overly-permissive access controls that
-							admins have pointed out in a number of cases.
-
-							<!-- I mapped data from our interviews and created
-							provisional personas to help us understand and empathize with
-							whose needs admins need to satisfy with sufficient access. -->
+							admins have pointed out in conversations.
 						</p>
+
 						<figure class="caption figure-inline">
 							<figcaption>
 								<span>fig. 1</span>Permissions concept model
@@ -376,9 +388,9 @@
 					>
 						<h3 class="bar-top">Post-launch</h3>
 						<p class="caption">
-							We received nearly 1k sign-ups for Early Access (beta) &mdash;
-							about 500 during the first 48 hours alone &mdash; double what we
-							expected in the first 2 weeks. We saw high adoption of at least
+							We received nearly 5k sign-ups for Early Access (beta) &mdash;
+							about 3k during the first 48 hours alone &mdash; more than double what we
+							expected within the first 2 weeks. We saw high adoption of at least
 							one of the new roles among our qualified Early Access users and
 							continued to monitor and gather feedback throughout the remainder
 							of the beta period and beyond.
