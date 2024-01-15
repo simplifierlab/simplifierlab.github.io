@@ -311,6 +311,9 @@ article code {
 	top: 140px;
 	left: 28px;
 }
+#persona-anim {
+	max-width: 320px;
+}
 
 @media screen and (min-width: 800px) {
 }
