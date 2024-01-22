@@ -126,14 +126,21 @@ main.hero {
 	align-self: stretch;
 	flex-wrap: wrap;
 	padding: 120px 0; */
-	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+	row-gap: 120px;
+	align-self: stretch;
+	flex-wrap: wrap;
+	/* display: block; */
 }
 .exhibit figure {
 	/* display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	width: 33vw; */
-	display: block;
+	display: flex;
 	width: 100vw;
 	/* padding: 80px 0; */
 }
@@ -267,6 +274,7 @@ main.hero {
 		/* object-fit: cover; */
 	}
 	.exhibit {
+
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
@@ -276,23 +284,25 @@ main.hero {
 		flex-direction: row;
 		flex-wrap: wrap;
 		padding: 120px 0;
+		
+
 	}
 
 	.exhibit figure {
 		display: block;
 		/* flex-direction: column; */
 		/* align-items: flex-start; */
-		width: 33vw;
+		width: calc(33vw - 4px);
 		/* min-height: 680px; */
 		/* border: 1px solid #f00; */
 	}
 	.exhibit figure.highlight {
-		width: 66vw;
+		width: calc(66vw - 4px);
 	}
 	.exhibit figure img {
-		width: 33vw;
+		width: calc(33vw - 4px);
 	}
 	.exhibit figure.highlight img {
-		width: 66vw;
+		width: calc(66vw - 4px);
 	}
 }
