@@ -13,8 +13,8 @@ nav {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	font-weight: 500;
 	font-size: 48px;
-	line-height: 54px;
-	letter-spacing: -0.02em;
+	line-height: 52px;
+	letter-spacing: -0.03em;
 }
 
 .container .hero .lede sup {
@@ -24,7 +24,7 @@ nav {
 	/* font-feature-settings: 'cv08' on, 'ss01' on; */
 	font-feature-settings: 'ss04' on, 'sups' on;
 	font-size: 1.25rem;
-	line-height: 54px;
+	line-height: 52px;
 	/* top: -16px; */
 	/* display: inline-block; */
 	padding: 0;
@@ -110,7 +110,7 @@ nav {
 		sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 24px; /* 150% */
+	line-height: 140%;
 	/* height: 56px; */
 	max-width: 320px;
 	padding-top: 8px;
