@@ -20,13 +20,9 @@ nav {
 .container .hero .lede sup {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
-	/* font-variant-numeric: oldstyle-nums proportional-nums; */
-	/* font-feature-settings: 'cv08' on, 'ss01' on; */
 	font-feature-settings: 'ss04' on, 'sups' on;
 	font-size: 1.25rem;
 	line-height: 52px;
-	/* top: -16px; */
-	/* display: inline-block; */
 	padding: 0;
 	margin: 0;
 	padding-left: 4px;
@@ -36,9 +32,6 @@ nav {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	color: var(--color-ink);
 	text-decoration: none;
-	/* font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif; */
 }
 .container .hero .lede a sup {
 	color: var(--color-ink-lightest);
@@ -47,28 +40,19 @@ nav {
 .container .hero .lede a:hover sup {
 	color: var(--color-red);
 }
-
 .showcase {
 	display: block;
-	/* display: flex;
-	flex-wrap: wrap;
-	border-top: 1px solid var(--color-sky);
-	border-bottom: 1px solid var(--color-sky); */
 }
 
 .showcase .worksample a {
 	display: block;
 	padding: 80px;
-	/* width: 33.33vw; */
-	/* width: 100%; */
 	box-sizing: border-box;
 	text-decoration: none;
 	cursor: pointer;
 	width: 100%;
 }
 .showcase .worksample.wide a {
-	/* width: 66.66vw; */
-	/* width: 100%; */
 	width: 100%;
 }
 .showcase .worksample a:hover {
@@ -88,7 +72,7 @@ nav {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 28px; /* 140% */
+	line-height: 28px; 
 	padding-bottom: 8px;
 }
 .showcase .worksample figcaption h3 {
@@ -98,9 +82,8 @@ nav {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	font-size: 24px;
 	font-weight: 400;
-	line-height: 28px; /* 116.667% */
-	letter-spacing: -0.24px;
-	/* height: 56px; */
+	line-height: 28px; 
+	letter-spacing: -.025em;
 	padding-bottom: 8px;
 }
 .showcase .worksample figcaption p {
@@ -111,11 +94,9 @@ nav {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 140%;
-	/* height: 56px; */
 	max-width: 320px;
 	padding-top: 8px;
 	padding-bottom: 40px;
-	/* border: 1px solid #f00; */
 }
 .showcase .worksample img {
 	width: 100%;
@@ -123,185 +104,6 @@ nav {
 .showcase .worksample .thumbnail img:nth-of-type(2) {
 	display: none;
 }
-
-/*************************************************/
-/** OLD STYLES ***********************************/
-/*************************************************/
-
-/* 
-.container .featured {
-	display: flex;
-	padding: 80px 28px 0 28px;
-	gap: 24px 0;
-	flex-wrap: wrap;
-}
-.container .featured article {
-	display: flex;
-	width: calc(100vw - 56px);
-	flex-direction: column;
-	gap: 24px;
-	flex-shrink: 1;
-	border-left: 1px dotted var(--color-sky-dark);
-}
-
-.container .featured article.blank {
-	display: none;
-}
-.container .featured article header {
-	display: flex;
-	flex-direction: column;
-	gap: 24px;
-	align-self: stretch;
-	padding-left: 16px;
-	min-height: 76px;
-}
-.container .featured article header > p {
-	color: var(--color-ink-lightest);
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	font-feature-settings: 'ss04' on;
-}
-.container .featured article header h3 {
-	font-weight: 400;
-	color: var(--color-ink-lightest);
-	font-size: 24px;
-	line-height: 28px;
-}
-
-.container .featured article .thumbnail img {
-	width: 100%;
-	object-fit: cover;
-}
-
-.container .featured article .caption {
-	display: flex;
-	padding-left: 16px;
-	padding-right: 40px;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 24px;
-	align-self: stretch;
-	color: var(--color-ink-lighter);
-	font-family: 'Roboto Serif', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif;
-	font-weight: 400;
-	max-width: 400px;
-	min-height: 56px;
-	font-size: 14px;
-	line-height: 20px;
-}
-.container .featured article .caption a {
-	font-family: 'Roboto Serif', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif;
-	display: block;
-	color: var(--color-ink-lighter);
-	text-decoration: none;
-}
-.container .featured article .caption a:hover {
-	color: var(--color-ink);
-}
-
-.exhibit {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: flex-start;
-	row-gap: 120px;
-	align-self: stretch;
-	flex-wrap: wrap;
-	padding: 0 28px;
-}
-.exhibit figure {
-	display: block;
-	width: calc(100vw - 64px);
-}
-.exhibit figure.highlight {
-	width: calc(100vw - 64px);
-}
-.exhibit figure > a {
-	display: block;
-}
-
-.exhibit figure img {
-	width: calc(100vw - 64px);
-}
-.exhibit figure.highlight img {
-	width: calc(100vw - 64px);
-}
-.exhibit figcaption {
-	display: block;
-	font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif;
-	padding-top: 12px;
-}
-.exhibit figcaption > p {
-	color: var(--color-ink-lightest);
-	font-feature-settings: 'ss01' on;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0.32px;
-	padding-bottom: 8px;
-	margin-bottom: 8px;
-	position: relative;
-}
-.exhibit figcaption > p:first-of-type::after {
-	content: '';
-	background-color: var(--color-sky-dark);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 2px;
-	width: 40px;
-}
-
-.exhibit figcaption h3 {
-	display: block;
-	color: var(--color-ink-lighter);
-	font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 44px;
-}
-.exhibit figcaption h3 a {
-	text-decoration: none;
-	display: block;
-	color: var(--color-ink-lighter);
-}
-.exhibit figcaption .caption,
-.exhibit figcaption .caption a {
-	color: var(--color-ink-lighter);
-	font-family: 'Roboto Serif', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 160%;
-	width: 100%;
-	max-width: 320px;
-	text-decoration: none;
-	letter-spacing: -0.01em;
-}
-.exhibit figcaption h3 a:hover,
-.exhibit figcaption .caption a:hover {
-	color: var(--color-ink);
-	transition: all 1s;
-	background-color: var(--color-yellow-25);
-}
-.exhibit img:hover {
-	filter: opacity(87%) saturate(1.3);
-	cursor: pointer;
-} 
-
-*/
 
 @media screen and (min-width: 800px) {
 	.showcase {
@@ -333,58 +135,5 @@ nav {
 	.showcase .worksample .thumbnail img:nth-of-type(2) {
 		display: block;
 	}
-	/*************************************************/
-	/* OLD STYLES */
-	/*************************************************/
-
-	.container .featured {
-		padding: 40px 28px 40px 28px;
-	}
-	.container .featured article .caption {
-		font-size: 20px;
-		line-height: 28px;
-	}
-	.container .featured article {
-		width: calc(33.33vw - 24px);
-	}
-	.container .featured article.blank {
-		width: calc(33.33vw - 24px);
-		border: none;
-		display: flex;
-	}
-	.container .featured article .thumbnail img {
-		width: calc(33.33vw - 24px);
-	}
-	.container .featured article.wide .thumbnail img {
-		width: calc(66.67vw - 24px);
-	}
-	.exhibit {
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-		align-content: flex-start;
-		row-gap: 40px;
-		align-self: stretch;
-		flex-direction: row;
-		flex-wrap: wrap;
-		padding: 120px 0;
-	}
-
-	.exhibit figure {
-		display: block;
-		width: calc(33vw - 4px);
-	}
-	.exhibit figure.highlight {
-		width: calc(66vw - 4px);
-	}
-	.exhibit figure img {
-		width: calc(33vw - 4px);
-	}
-	.exhibit figure.highlight img {
-		width: calc(66vw - 4px);
-	}
-	.exhibit figcaption {
-		display: block;
-		padding-left: 24px;
-	}
+	
 }

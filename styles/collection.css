@@ -47,17 +47,8 @@
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 24px;
-	/* 	
-	font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 28px;
-	 */
 	padding-right: 12px;
 	position: relative;
-	/* letter-spacing: -0.01em; */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; */
@@ -71,9 +62,6 @@
 	top: -80px;
 	left: 0;
 }
-/* .container .collection .full-bleed + article {
-	border: 1px solid #f00;
-} */
 .container .collection .full-bleed + article {
 	border-top: none;
 }
@@ -94,13 +82,7 @@
 .container .collection article .details .detail-item p,
 .container .collection article .caption li {
 	color: var(--color-ink-lighter);
-	/* font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif; */
-	/* font-size: 16px; */
-	/* font-weight: 400; */
-	/* line-height: 24px;  */
 	margin-bottom: 16px;
-	/* font-variant-numeric: oldstyle-nums tabular-nums; */
-	/* font-feature-settings: 'ss03' on, 'ss05' on; */
 	font-family: 'Instrument Sans', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
@@ -112,7 +94,6 @@
 .caption i,
 .container .collection article .caption i,
 .container .collection article .details .detail-item p i {
-	/* font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif; */
 	font-family: 'Instrument Sans', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
@@ -122,15 +103,11 @@
 }
 .caption a,
 .container .collection article .caption a {
-	/* font-family: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif; */
 	font-family: 'Instrument Sans', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
 
 	color: var(--color-blue-900);
-	/* text-decoration: none; */
-	/* font-weight: 500; */
-	/* border-bottom: 1px dotted var(--color-sky-dark); */
 	text-decoration: underline;
 	-webkit-text-decoration-skip: ink;
 	text-decoration-skip: ink;
@@ -141,15 +118,11 @@
 .container .collection article .caption a:hover {
 	color: var(--color-red);
 }
-/* .container .collection article .caption a:visited {
-	color: var(--color-poppy-800);
-} */
+
 .caption a.btn,
 .container .collection article .caption a.btn {
 	border: none;
-	/* font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-		sans-serif; */
+
 	font-family: 'Instrument Sans', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
@@ -274,7 +247,6 @@
 	object-fit: cover;
 	width: calc(66vw - 80px);
 	max-width: 540px;
-	/* border: 1px solid #f00; */
 }
 .figure-inline > figcaption {
 	color: var(--color-ink);
@@ -297,7 +269,6 @@
 	padding-left: 12px;
 }
 article .eyebrow {
-	/* color: var(--color-ink-lighter); */
 	color: var(--color-ink);
 	font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
@@ -338,9 +309,7 @@ article code {
 	left: -24px;
 	padding-left: 24px;
 	padding-bottom: 0;
-
 	border-left: 1px dashed var(--color-ink-lighter);
-	/* z-index: 10; */
 }
 #iterations {
 	padding-top: 40px;
