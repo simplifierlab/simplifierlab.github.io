@@ -64,11 +64,17 @@ nav {
 .showcase .worksample:not(:first-of-type) a {
 	border-left: 1px solid var(--color-sky);
 }
-.showcase .worksample:not(:first-of-type) a,
+/* .showcase .worksample:not(:first-of-type) a,
 .showcase .worksample:not(:nth-of-type(2)) a {
 	border-top: 1px solid var(--color-sky);
+} */
+.showcase .worksample a {
+	border-top: 1px solid var(--color-sky);
 }
-.showcase .worksample:last-of-type a {
+/* .showcase .worksample:last-of-type a {
+	border-bottom: 1px solid var(--color-sky);
+} */
+.showcase:not(:nth-of-type(2)) .worksample:last-of-type a {
 	border-bottom: 1px solid var(--color-sky);
 }
 
@@ -124,8 +130,15 @@ nav {
 		/* border-top: 1px solid var(--color-sky); */
 		border-bottom: 1px solid var(--color-sky);
 	}
-	.showcase:nth-of-type(2) {
-		/* border-top: none; */
+	/* .showcase:nth-of-type(2) {
+		border-top: none;
+	} */
+
+	.showcase + .showcase .worksample a {
+		border-top: none;
+	}
+	.showcase:not(:nth-of-type(2)) .worksample:last-of-type a {
+		border-bottom: none;
 	}
 
 	.showcase .worksample a {
