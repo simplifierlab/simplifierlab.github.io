@@ -9,25 +9,28 @@ nav {
 .container section.hero:not(:first-of-type) {
 	padding-top: 280px;
 }
-.container section.hero .lede {
+
+/* .container section.hero .lede {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 52px;
 	letter-spacing: -0.03em;
-}
+} */
 
 .container .hero .lede sup {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
 	font-feature-settings: 'ss04' on, 'sups' on;
-	font-size: 1.25rem;
-	line-height: 52px;
+	font-size: 50%;
+	/* line-height: 52px; */
+	line-height: 1.125;
 	padding: 0;
 	margin: 0;
 	padding-left: 4px;
 	letter-spacing: 1px;
 }
+
 .container .hero .lede a {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	color: var(--color-ink);
@@ -42,9 +45,6 @@ nav {
 }
 .showcase {
 	display: block;
-	/* display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap; */
 }
 
 .showcase .worksample a {
@@ -64,16 +64,11 @@ nav {
 .showcase .worksample:not(:first-of-type) a {
 	border-left: 1px solid var(--color-sky);
 }
-/* .showcase .worksample:not(:first-of-type) a,
-.showcase .worksample:not(:nth-of-type(2)) a {
-	border-top: 1px solid var(--color-sky);
-} */
+
 .showcase .worksample a {
 	border-top: 1px solid var(--color-sky);
 }
-/* .showcase .worksample:last-of-type a {
-	border-bottom: 1px solid var(--color-sky);
-} */
+
 .showcase:not(:nth-of-type(2)) .worksample:last-of-type a {
 	border-bottom: 1px solid var(--color-sky);
 }
@@ -126,13 +121,8 @@ nav {
 	.showcase {
 		display: flex;
 		flex-direction: row;
-		/* flex-wrap: wrap; */
-		/* border-top: 1px solid var(--color-sky); */
 		border-bottom: 1px solid var(--color-sky);
 	}
-	/* .showcase:nth-of-type(2) {
-		border-top: none;
-	} */
 
 	.showcase + .showcase .worksample a {
 		border-top: none;
@@ -142,12 +132,8 @@ nav {
 	}
 
 	.showcase .worksample a {
-		/* display: block; */
 		padding: 24px;
 		width: 33.33vw;
-		/* box-sizing: border-box; */
-		/* text-decoration: none; */
-		/* cursor: pointer; */
 	}
 	.showcase .worksample:last-of-type a {
 		border-bottom: none;

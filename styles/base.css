@@ -122,7 +122,8 @@ nav p a span {
 .container .hero h2 {
 	grid-column-start: 2;
 	color: var(--color-ink);
-	font-family: 'Instrument Sans', 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Instrument Sans', 'Brygada 1918', Georgia, 'Times New Roman',
+		Times, serif;
 	font-size: 80px;
 	font-weight: 700;
 	line-height: 100%;
@@ -131,17 +132,17 @@ nav p a span {
 	letter-spacing: -0.02em;
 }
 .container .hero .lede {
-	/* grid-column-start: 2; */
 	color: var(--ink-lightest, #919eab);
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
-	font-size: 48px;
+	font-size: calc(100vw / 16);
+	line-height: 1.25;
+	/* font-size: 48px; */
+	/* line-height: 56px; */
 	font-style: normal;
 	font-weight: 500;
-	line-height: 56px;
 	letter-spacing: -0.02em;
 }
 .container .hero .lede a {
-
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
 	text-decoration: none;
 	color: var(--color-ink);
@@ -177,7 +178,7 @@ a[href^='b2b/']::after {
 	content: '';
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 	nav .subnav,
 	nav .main-nav {
 		display: grid;
@@ -203,6 +204,14 @@ a[href^='b2b/']::after {
 	.container .hero .lede {
 		grid-column-start: 2;
 	}
-}
-@media screen and (min-width: 800px) {
+
+	.container .hero .lede {
+		/* color: var(--ink-lightest, #919eab); */
+		/* font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif; */
+		font-size: 48px;
+		/* font-style: normal; */
+		/* font-weight: 500; */
+		line-height: 56px;
+		/* letter-spacing: -0.02em; */
+	}
 }
