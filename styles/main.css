@@ -2,21 +2,6 @@ nav {
 	position: relative;
 	background-color: var(--color-sky-lighter);
 }
-/* .container section.hero {
-	padding-top: 120px;
-	padding-bottom: 160px;
-} */
-/* .container section.hero:not(:first-of-type) {
-	padding-top: 280px;
-} */
-
-/* .container section.hero .lede {
-	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
-	font-weight: 500;
-	font-size: 48px;
-	line-height: 52px;
-	letter-spacing: -0.03em;
-} */
 
 .container .hero .lede sup {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
@@ -114,11 +99,6 @@ nav {
 	display: none;
 }
 
-/* @media screen and (min-width: 480px) and (max-width: 767px) {
-	.showcase .worksample a {
-		padding: 80px;
-	}
-} */
 @media screen and (min-width: 768px) {
 	.showcase {
 		display: flex;
@@ -135,15 +115,17 @@ nav {
 
 	.showcase .worksample a {
 		padding: 24px;
-		width: 33.33vw;
+		/* width: 33.33vw; */
 		/* flex-grow: 1; */
+		width: calc(33.33vw - 8px);
 	}
 	.showcase .worksample:last-of-type a {
 		border-bottom: none;
 	}
 	.showcase .worksample.wide a {
-		width: 66.66vw;
+		/* width: 66.66vw; */
 		/* flex-grow: 2; */
+		width: calc(66.66vw - 8px);
 	}
 
 	.showcase .worksample .thumbnail {
