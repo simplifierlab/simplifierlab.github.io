@@ -2,13 +2,13 @@ nav {
 	position: relative;
 	background-color: var(--color-sky-lighter);
 }
-.container section.hero {
+/* .container section.hero {
 	padding-top: 120px;
 	padding-bottom: 160px;
-}
-.container section.hero:not(:first-of-type) {
+} */
+/* .container section.hero:not(:first-of-type) {
 	padding-top: 280px;
-}
+} */
 
 /* .container section.hero .lede {
 	font-family: 'Brygada 1918', Georgia, 'Times New Roman', Times, serif;
@@ -45,6 +45,8 @@ nav {
 }
 .showcase {
 	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 
 .showcase .worksample a {
@@ -134,12 +136,14 @@ nav {
 	.showcase .worksample a {
 		padding: 24px;
 		width: 33.33vw;
+		/* flex-grow: 1; */
 	}
 	.showcase .worksample:last-of-type a {
 		border-bottom: none;
 	}
 	.showcase .worksample.wide a {
 		width: 66.66vw;
+		/* flex-grow: 2; */
 	}
 
 	.showcase .worksample .thumbnail {
