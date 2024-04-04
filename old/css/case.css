@@ -446,3 +446,18 @@
 	top: -80px;
 	left: 80px;
 }
+
+
+#case-study .container-fluid.bg-putty {
+	/* border: 1px solid #f00; */
+	background-color: #F2ECEF;
+}
+#case-study .container.wide.img-cover {
+	margin: 0 auto;
+	/* border: 1px solid #f00; */
+	max-width: calc(100vw - 120px);
+} 
+#case-study .container.wide.img-cover img {
+	object-fit: cover;
+	/* border: 1px solid #f00; */
+}
