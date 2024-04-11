@@ -162,9 +162,16 @@
 }
 #case-study #brief .content-2col {
 	display: flex;
+	/* columns: 2; */
 	gap: 48px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+#case-study #brief .content-2col article {
+	max-width: 400px;
+}
+#case-study #brief .content-2col article p {
+	margin-bottom: 24px;
 }
 
 #case-study #brief div p {
@@ -185,17 +192,17 @@
 }
 
 #case-study .graphic-ia {
-	background: url(../img/uscis/IA.png) center 240px no-repeat;
+	background: url(../img/uscis/IA.png) center 280px no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
 	height: 400px;
 }
 
 #case-study #user-research {
-	background: url(../img/uscis/research-map.png) 100px 280px no-repeat;
+	background: url(../img/uscis/research-map.png) 100px 310px no-repeat;
 	/* padding: 160px 0; */
 	/* padding-bottom: 320px; */
-	min-height: 600px;
+	min-height: 640px;
 	position: relative;
 }
 
