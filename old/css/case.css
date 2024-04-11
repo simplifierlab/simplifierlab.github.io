@@ -302,6 +302,26 @@
 #case-study details[open] > summary {
 	background: url(../img/icons/icon-minus.svg) 0 3px no-repeat;
 }
+
+#case-study details.design-sprint {
+	font-size: 15px;
+	max-width: 560px;
+	margin-top: 32px;
+	/* border: 1px solid #f00; */
+	padding-bottom: 0;
+	line-height: 24px;
+	color: var(--color-ink-lighter);
+}
+#case-study details.design-sprint[open] {
+	padding-bottom: 0;
+	/* border: 1px solid #f00; */
+}
+#case-study details.design-sprint > summary {
+	font-size: 15px;
+	padding-bottom: 16px;
+	max-width: 400px;
+}
+
 #case-study .key-findings {
 	flex-direction: column;
 }
